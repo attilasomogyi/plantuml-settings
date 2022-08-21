@@ -41,6 +41,6 @@ skinparam Class {
     }
 
 title $title()
-footer $date()
+footer Updated on $date()
 
 @enduml
