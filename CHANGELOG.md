@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.2.0...v1.2.1) (2022-08-21)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** add update on ([3f1fbc9](https://github.com/attilasomogyi/plantuml-settings/commit/3f1fbc95c8744b744b47ac21631b3d31960477ff))
+
 # [1.2.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.1.0...v1.2.0) (2022-08-21)
 
 
