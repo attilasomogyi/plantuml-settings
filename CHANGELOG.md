@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.1.0...v1.2.0) (2022-08-21)
+
+
+### Features
+
+* **pantuml-settings:** add title and header feature ([8a244d2](https://github.com/attilasomogyi/plantuml-settings/commit/8a244d263e6ba6ed397c5d87b37339177ebefa0a))
+
 # [1.1.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.0.1...v1.1.0) (2022-08-21)
 
 
