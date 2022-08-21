@@ -1,0 +1,2 @@
+# plantuml-settings
+Plantuml Settings
