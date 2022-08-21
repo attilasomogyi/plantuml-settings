@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.4.0...v1.5.0) (2022-08-21)
+
+
+### Features
+
+* **examples:** add action diagram ([6842d2a](https://github.com/attilasomogyi/plantuml-settings/commit/6842d2a48d78c190b20c1f2dff85768ff84d7e20))
+
 # [1.4.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.3.0...v1.4.0) (2022-08-21)
 
 
