@@ -1,0 +1,10 @@
+@startuml
+
+!include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
+
+object user {
+  name = "Adam"
+  id = 123
+}
+
+@enduml
