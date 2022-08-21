@@ -1,0 +1,12 @@
+*
+!*/
+!*.wsd
+!*.pu
+!*.puml
+!*.plantuml
+!*.iuml
+!*.md
+!*.yml
+!*CHANGELOG.md
+!*LICENSE
+!.gitignore

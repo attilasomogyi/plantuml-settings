@@ -1,0 +1,29 @@
+@startuml
+
+skinparam Dpi 300
+skinparam Shadowing true
+skinparam Padding 7
+skinparam monochrome true
+skinparam BackgroundColor white
+skinparam RoundCorner 5
+skinparam ParticipantPadding 40
+skinparam BoxPadding 10
+skinparam Padding 10
+
+skinparam Default {
+    FontName Arial
+    FontColor black
+    FontSize 12
+    TextAlignment center
+}
+
+skinparam Caption {
+    FontSize 16
+}
+
+skinparam Class {
+    AttributeIconSize 15
+    CardBorderThickness 1
+    }
+
+@enduml
