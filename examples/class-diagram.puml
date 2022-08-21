@@ -1,0 +1,12 @@
+@startuml
+
+!include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
+
+class ClassName {
+ -variable1: number
+ #variable2: string
+ ~method1(): void
+ +method2(): number
+}
+
+@enduml
