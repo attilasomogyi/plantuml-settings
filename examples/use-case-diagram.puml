@@ -1,0 +1,25 @@
+@startuml
+
+!include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
+
+left to right direction
+
+actor Guest as guest
+
+package Professional {
+  actor Chef as chef
+  actor "Food Critic" as foodCritic
+}
+
+package Restaurant {
+  usecase "Eat Food" as eatFood
+  usecase "Pay for Food" as playForFood
+  usecase "Drink" as drink
+  usecase "Review" as review
+}
+foodCritic --> review
+guest --> eatFood
+guest --> playForFood
+guest --> drink
+
+@enduml
