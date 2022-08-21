@@ -17,6 +17,7 @@ package Restaurant {
   usecase "Drink" as drink
   usecase "Review" as review
 }
+
 foodCritic --> review
 guest --> eatFood
 guest --> playForFood
