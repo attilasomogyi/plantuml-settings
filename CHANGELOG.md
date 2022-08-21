@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.0.1...v1.1.0) (2022-08-21)
+
+
+### Features
+
+* **examples:** add sequince diagram ([227d54a](https://github.com/attilasomogyi/plantuml-settings/commit/227d54a5910c99070f261b52cb258d456512a970))
+
 ## [1.0.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.0.0...v1.0.1) (2022-08-21)
 
 
