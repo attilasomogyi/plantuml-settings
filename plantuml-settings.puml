@@ -23,7 +23,6 @@ skinparam Caption {
 
 skinparam Class {
     AttributeIconSize 15
-    CardBorderThickness 1
     }
 
 @enduml
