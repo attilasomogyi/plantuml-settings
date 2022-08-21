@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.5.1...v1.6.0) (2022-08-21)
+
+
+### Features
+
+* **activity-diagram:** add new syntax ([555a542](https://github.com/attilasomogyi/plantuml-settings/commit/555a542a240fe014443867ee262e97fad973b217))
+
 ## [1.5.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.5.0...v1.5.1) (2022-08-21)
 
 
