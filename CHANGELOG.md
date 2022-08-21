@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.0.0...v1.0.1) (2022-08-21)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** move to src folder ([b23c667](https://github.com/attilasomogyi/plantuml-settings/commit/b23c667f6dbc8b09c90440ebf44e21ef7b77da60))
+
 # 1.0.0 (2022-08-21)
 
 
