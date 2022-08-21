@@ -2,15 +2,16 @@
 
 !include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
 
-(*) --> "Initialization"
+start
 
-if "Some Test" then
-  -->[true] "Some Action"
-  --> "Another Action"
-  -right-> (*)
-else
-  ->[false] "Something else"
-  -->[Ending process] (*)
+if (Graphviz installed?) then (yes)
+  :process all
+  diagrams;
+else (no)
+  :process only
+  sequence and activity diagrams;
 endif
+
+stop
 
 @enduml
