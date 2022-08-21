@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.5.0...v1.5.1) (2022-08-21)
+
+
+### Bug Fixes
+
+* **examples:** rename to activity diagram ([90f5919](https://github.com/attilasomogyi/plantuml-settings/commit/90f5919e703a5a60989f2eb31c115e5f328c77e8))
+
 # [1.5.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.4.0...v1.5.0) (2022-08-21)
 
 
