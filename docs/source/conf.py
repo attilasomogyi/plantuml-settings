@@ -2,10 +2,18 @@ project = 'PlantUML Settings'
 copyright = '2022, Attila Zsolt Somogyi'
 author = 'Attila Zsolt Somogyi'
 
-extensions = []
+extensions = [
+    'sphinx.ext.duration',
+    'sphinx.ext.doctest',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.intersphinx',
+]
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+
+epub_show_urls = 'footnote'
