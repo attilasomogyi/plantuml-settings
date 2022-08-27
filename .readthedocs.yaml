@@ -3,16 +3,15 @@ version: 2
 formats: all
 
 build:
-  os: ubuntu-20.04
+  image: latest
   tools:
     python: "3.11"
+  apt_packages:
+    - "plantuml"
 
 python:
   install:
     - requirements: docs/requirements.txt
-
-  apt_packages:
-    - "plantuml"
 
 sphinx:
   configuration: docs/source/conf.py
