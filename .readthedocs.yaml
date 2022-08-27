@@ -7,5 +7,12 @@ build:
   tools:
     python: "3.11"
 
+python:
+  install:
+    - requirements: docs/requirements.txt
+
+  apt_packages:
+    - "plantuml"
+
 sphinx:
   configuration: docs/source/conf.py
