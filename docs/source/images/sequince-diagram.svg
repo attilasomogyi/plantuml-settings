@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1234.375px" preserveAspectRatio="none" style="width:1075px;height:1234px;" version="1.1" viewBox="0 0 1075 1234" width="1075px" zoomAndPan="magnify"><defs><filter height="300%" id="f127wj49defw54" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="6.25"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="12.5" dy="12.5" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="315.625" x="443.75" y="97.6746">sequince-diagram</text><line style="stroke: #383838; stroke-width: 3.125; stroke-dasharray: 5.0,5.0;" x1="250" x2="250" y1="323.7427" y2="983.728"/><line style="stroke: #383838; stroke-width: 3.125; stroke-dasharray: 5.0,5.0;" x1="959.375" x2="959.375" y1="323.7427" y2="983.728"/><rect fill="#F8F8F8" filter="url(#f127wj49defw54)" height="149.3713" rx="7.8125" ry="7.8125" style="stroke: #383838; stroke-width: 4.6875;" width="187.5" x="150" y="158.7463"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="81.25" x="203.125" y="247.0459">Alice</text><rect fill="#F8F8F8" filter="url(#f127wj49defw54)" height="149.3713" rx="7.8125" ry="7.8125" style="stroke: #383838; stroke-width: 4.6875;" width="187.5" x="150" y="980.603"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="81.25" x="203.125" y="1068.9026">Alice</text><rect fill="#F8F8F8" filter="url(#f127wj49defw54)" height="149.3713" rx="7.8125" ry="7.8125" style="stroke: #383838; stroke-width: 4.6875;" width="175" x="865.625" y="158.7463"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="918.75" y="247.0459">Bob</text><rect fill="#F8F8F8" filter="url(#f127wj49defw54)" height="149.3713" rx="7.8125" ry="7.8125" style="stroke: #383838; stroke-width: 4.6875;" width="175" x="865.625" y="980.603"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="68.75" x="918.75" y="1068.9026">Bob</text><polygon fill="#383838" points="921.875,466.864,953.125,479.364,921.875,491.864,934.375,479.364" style="stroke: #383838; stroke-width: 3.125;"/><line style="stroke: #383838; stroke-width: 3.125;" x1="250" x2="940.625" y1="479.364" y2="479.364"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="396.875" x="303.125" y="433.9172">Authentication Request</text><polygon fill="#383838" points="284.375,616.2354,253.125,628.7354,284.375,641.2354,271.875,628.7354" style="stroke: #383838; stroke-width: 3.125;"/><line style="stroke: #383838; stroke-width: 3.125; stroke-dasharray: 2.0,2.0;" x1="265.625" x2="956.25" y1="628.7354" y2="628.7354"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="431.25" x="334.375" y="583.2886">Authentication Response</text><polygon fill="#383838" points="921.875,765.6067,953.125,778.1067,921.875,790.6067,934.375,778.1067" style="stroke: #383838; stroke-width: 3.125;"/><line style="stroke: #383838; stroke-width: 3.125;" x1="250" x2="940.625" y1="778.1067" y2="778.1067"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="537.5" x="303.125" y="732.6599">Another authentication Request</text><polygon fill="#383838" points="284.375,914.978,253.125,927.478,284.375,939.978,271.875,927.478" style="stroke: #383838; stroke-width: 3.125;"/><line style="stroke: #383838; stroke-width: 3.125; stroke-dasharray: 2.0,2.0;" x1="265.625" x2="956.25" y1="927.478" y2="927.478"/><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="571.875" x="334.375" y="882.0313">Another authentication Response</text><text fill="#000000" font-family="Arial" font-size="37.5" lengthAdjust="spacingAndGlyphs" textLength="409.375" x="396.875" y="1193.2739">Updated on 2022-08-27</text><!--MD5=[ab98d0b0e708e8f03e8364528778f5af]
+@startuml
+
+
+
+
+skinparam Dpi 300
+skinparam Shadowing true
+skinparam Padding 7
+skinparam monochrome true
+skinparam BackgroundColor white
+skinparam RoundCorner 5
+skinparam ParticipantPadding 40
+skinparam BoxPadding 10
+skinparam Padding 10
+
+skinparam Default {
+    FontName Arial
+    FontColor black
+    FontSize 12
+    TextAlignment center
+}
+
+skinparam Caption {
+    FontSize 16
+}
+
+skinparam Class {
+    AttributeIconSize 15
+    }
+
+title sequince-diagram
+footer Updated on 2022-08-27
+
+
+Alice -> Bob: Authentication Request
+Bob - -> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <- - Bob: Another authentication Response
+
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 18.0.2-ea+9-Ubuntu-2
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
