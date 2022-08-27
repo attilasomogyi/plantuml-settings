@@ -8,11 +8,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinxcontrib.plantuml',
 ]
-
-plantuml = 'java -jar /usr/share/plantuml.jar'
-plantuml_output_format = 'svg'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
