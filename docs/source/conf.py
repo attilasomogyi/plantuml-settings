@@ -12,6 +12,7 @@ extensions = [
 ]
 
 plantuml = 'java -jar /usr/share/plantuml.jar'
+plantuml_output_format = 'svg'
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']

@@ -1,13 +1,13 @@
 Welcome to PlantUML Settings's documentation!
 =============================================
 
-.. note::
-
-   This project is under active development.
-
 Contents
 --------
 
 .. toctree::
 
-   index
+.. uml:: examples/activity-diagram.puml
+
+.. note::
+
+   This project is under active development.
