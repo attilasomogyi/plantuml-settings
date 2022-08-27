@@ -19,7 +19,7 @@ skinparam Dpi 300
 skinparam Shadowing true
 skinparam Padding 7
 skinparam monochrome true
-skinparam BackgroundColor #FFFFFF
+skinparam BackgroundColor White
 skinparam RoundCorner 5
 skinparam ParticipantPadding 40
 skinparam BoxPadding 10
