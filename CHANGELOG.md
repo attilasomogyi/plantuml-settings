@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/attilasomogyi/plantuml-settings/compare/v1.6.1...v1.6.2) (2022-08-27)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** set simple white ([e9964fd](https://github.com/attilasomogyi/plantuml-settings/commit/e9964fdfcfb53c270fcbb33bfc53a67877c50812))
+
 ## [1.6.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.6.0...v1.6.1) (2022-08-27)
 
 
