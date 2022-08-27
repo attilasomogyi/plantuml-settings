@@ -6,7 +6,7 @@ Contents
 
 .. toctree::
 
-.. uml:: examples/activity-diagram.puml
+   uml/activity-diagram
 
 .. note::
 
