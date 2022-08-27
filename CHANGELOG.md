@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.6.0...v1.6.1) (2022-08-27)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** set background to white hex value ([401e535](https://github.com/attilasomogyi/plantuml-settings/commit/401e535905f9062856f45f435ed89d6d5016e94f))
+
 # [1.6.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.5.1...v1.6.0) (2022-08-21)
 
 
