@@ -1,4 +1,4 @@
 Class diagram
 ================
 
-.. image:: ./images/class-diagram.svg
+.. image:: images/class-diagram.svg
