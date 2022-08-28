@@ -1,8 +1,8 @@
 .wy-side-nav-search {
     padding-top: 5em;
-    background-image: url("/_static/images/plantuml-logo.svg");
+    background-image: url("/plantuml-settings/_static/images/plantuml-logo.svg");
     background-position: top;
     background-repeat: no-repeat;
     background-size: 10em auto;
-    background-color: green;
+    background-color: yellow;
   }
