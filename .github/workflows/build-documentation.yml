@@ -20,19 +20,10 @@ on:
         required: false
 
 jobs:
-  build:
+  docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v2
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v1
+      - uses: ammaraskar/sphinx-action@master
         with:
-          fetch-depth: 0
-      - name: Build and Commit
-        uses: sphinx-notes/pages@v2
-        with:
-          documentation_path: "docs/source"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages
+          docs-folder: "docs/"
