@@ -1,5 +1,5 @@
 Class diagram
 ================
 
-.. image:: images/class-diagram.svg
+.. image:: _static/images/class-diagram.svg
    :width: 400

@@ -1,5 +1,5 @@
 Activity diagram
 ================
 
-.. image:: images/activity-diagram.svg
+.. image:: _static/images/activity-diagram.svg
    :width: 400
