@@ -10,7 +10,7 @@ Contents
 
 .. toctree::
    :maxdepth: 1
-   :caption: UML Diagrams Examples
+   :caption: UML Diagram's Examples
    
    class-diagram
    activity-diagram
