@@ -10,4 +10,5 @@ Contents
 
 .. toctree::
 
+   class-diagram
    activity-diagram
