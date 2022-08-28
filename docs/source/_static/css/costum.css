@@ -10,3 +10,7 @@
   .wy-side-nav-search .wy-dropdown > a, .wy-side-nav-search > a {
     color: red;
   }
+
+  .wy-nav-top {
+    background-color: red;
+  }
