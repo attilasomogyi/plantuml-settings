@@ -20,10 +20,31 @@ on:
         required: false
 
 jobs:
-  docs:
+  build_docs_job:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v1
-      - uses: ammaraskar/sphinx-action@master
-        with:
-          docs-folder: "docs/"
+      - name: Build documentation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          apt-get update
+          apt-get install -y install git rsync python3
+          pip install -U sphinx sphinx-rtd-theme
+          git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+          make -C docs clean
+          make -C docs html
+          git config --global user.name "${GITHUB_ACTOR}"
+          git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          docroot=`mktemp -d`
+          rsync -av "docs/build/html/" "${docroot}/"
+          pushd "${docroot}"
+          git init
+          git remote add deploy "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git checkout -b gh-pages
+          touch .nojekyll
+          git add .
+          msg="docs: updating docs for commit ${GITHUB_SHA} made on `date -d"@${SOURCE_DATE_EPOCH}" --iso-8601=seconds` from ${GITHUB_REF} by ${GITHUB_ACTOR}"
+          git commit -am "${msg}"
+          git push deploy gh-pages --force
+        shell: bash
