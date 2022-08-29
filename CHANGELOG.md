@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.6.2...v1.7.0) (2022-08-29)
+
+
+### Features
+
+* **plantuml-settings:** set standart class visibility ([a0ae408](https://github.com/attilasomogyi/plantuml-settings/commit/a0ae40844de4986c45a270e4dcd205d272949cb1))
+
 ## [1.6.2](https://github.com/attilasomogyi/plantuml-settings/compare/v1.6.1...v1.6.2) (2022-08-27)
 
 
