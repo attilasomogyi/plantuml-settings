@@ -37,7 +37,7 @@ skinparam Caption {
 }
 
 skinparam Class {
-    AttributeIconSize 15
+    AttributeIconSize 0
     }
 
 title $title()
