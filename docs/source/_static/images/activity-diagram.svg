@@ -11,7 +11,7 @@
      zoomAndPan="magnify">
   <defs>
     <filter height="300%"
-            id="fb65keeo624fq"
+            id="f1jhu3rhlki8dl"
             width="300%"
             x="-1"
             y="-1">
@@ -50,12 +50,12 @@
     <ellipse cx="468.75"
              cy="240.9332"
              fill="#222222"
-             filter="url(#fb65keeo624fq)"
+             filter="url(#f1jhu3rhlki8dl)"
              rx="31.25"
              ry="31.25"
              style="stroke:#222222;stroke-width:3.125;" />
     <polygon fill="#F1F1F1"
-             filter="url(#fb65keeo624fq)"
+             filter="url(#f1jhu3rhlki8dl)"
              points="275,334.6832,662.5,334.6832,700,387.4939,662.5,440.3046,275,440.3046,237.5,387.4939,275,334.6832"
              style="stroke:#181818;stroke-width:1.5625;" />
     <text fill="#000000"
@@ -80,7 +80,7 @@
           x="731.25"
           y="348.2971">no</text>
     <rect fill="#F1F1F1"
-          filter="url(#fb65keeo624fq)"
+          filter="url(#f1jhu3rhlki8dl)"
           height="211.2427"
           rx="7.8125"
           ry="7.8125"
@@ -103,7 +103,7 @@
           x="109.375"
           y="612.3505">diagrams</text>
     <rect fill="#F1F1F1"
-          filter="url(#fb65keeo624fq)"
+          filter="url(#f1jhu3rhlki8dl)"
           height="211.2427"
           rx="7.8125"
           ry="7.8125"
@@ -126,12 +126,12 @@
           x="475"
           y="612.3505">sequence and activity diagrams</text>
     <polygon fill="#F1F1F1"
-             filter="url(#fb65keeo624fq)"
+             filter="url(#f1jhu3rhlki8dl)"
              points="468.75,701.5472,506.25,739.0472,468.75,776.5472,431.25,739.0472,468.75,701.5472"
              style="stroke:#181818;stroke-width:1.5625;" />
     <ellipse cx="468.75"
              cy="873.4222"
-             filter="url(#fb65keeo624fq)"
+             filter="url(#f1jhu3rhlki8dl)"
              rx="34.375"
              ry="34.375"
              style="stroke:#222222;stroke-width:3.125;fill:none;" />

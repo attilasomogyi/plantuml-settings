@@ -11,7 +11,7 @@
      zoomAndPan="magnify">
   <defs>
     <filter height="300%"
-            id="f6j3y7bzmvybr"
+            id="fsa9ok380ccto"
             width="300%"
             x="-1"
             y="-1">
@@ -50,7 +50,7 @@
     <g id="elem_ClassName">
       <rect codeLine="4"
             fill="#F1F1F1"
-            filter="url(#f6j3y7bzmvybr)"
+            filter="url(#fsa9ok380ccto)"
             height="609.3567"
             id="ClassName"
             rx="7.8125"

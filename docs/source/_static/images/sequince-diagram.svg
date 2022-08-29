@@ -11,7 +11,7 @@
      zoomAndPan="magnify">
   <defs>
     <filter height="300%"
-            id="ftu3ynl1vie6c"
+            id="fgg040rjwa8tt"
             width="300%"
             x="-1"
             y="-1">
@@ -58,7 +58,7 @@
           y1="355.9296"
           y2="1015.9149" />
     <rect fill="#E3E3E3"
-          filter="url(#ftu3ynl1vie6c)"
+          filter="url(#fgg040rjwa8tt)"
           height="149.3713"
           rx="7.8125"
           ry="7.8125"
@@ -74,7 +74,7 @@
           x="193.75"
           y="282.3578">Alice</text>
     <rect fill="#E3E3E3"
-          filter="url(#ftu3ynl1vie6c)"
+          filter="url(#fgg040rjwa8tt)"
           height="149.3713"
           rx="7.8125"
           ry="7.8125"
@@ -90,7 +90,7 @@
           x="193.75"
           y="1101.0895">Alice</text>
     <rect fill="#E3E3E3"
-          filter="url(#ftu3ynl1vie6c)"
+          filter="url(#fgg040rjwa8tt)"
           height="149.3713"
           rx="7.8125"
           ry="7.8125"
@@ -106,7 +106,7 @@
           x="909.375"
           y="282.3578">Bob</text>
     <rect fill="#E3E3E3"
-          filter="url(#ftu3ynl1vie6c)"
+          filter="url(#fgg040rjwa8tt)"
           height="149.3713"
           rx="7.8125"
           ry="7.8125"
