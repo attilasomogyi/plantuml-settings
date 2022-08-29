@@ -15,7 +15,7 @@
 !return $title
 !endfunction
 
-scale max 800 width
+scale 0.7
 skinparam Dpi 300
 skinparam Shadowing true
 skinparam Padding 7
