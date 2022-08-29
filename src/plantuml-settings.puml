@@ -15,6 +15,7 @@
 !return $title
 !endfunction
 
+skinparam svgDimensionStyle false
 skinparam Dpi 300
 skinparam Shadowing true
 skinparam Padding 7
