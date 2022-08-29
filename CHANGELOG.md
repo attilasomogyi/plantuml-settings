@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.0...v1.8.1) (2022-08-29)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** diagram width parameter ([68e634f](https://github.com/attilasomogyi/plantuml-settings/commit/68e634fafe71a8869edb978bf5b5c4d4334cb602))
+
 # [1.8.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.7.0...v1.8.0) (2022-08-29)
 
 
