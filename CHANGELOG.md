@@ -1,3 +1,10 @@
+## [1.8.3](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.2...v1.8.3) (2022-08-29)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** set correct scale ([cb3da3b](https://github.com/attilasomogyi/plantuml-settings/commit/cb3da3b031ad09fe6242f829fadc065b2dec991e))
+
 ## [1.8.2](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.1...v1.8.2) (2022-08-29)
 
 
