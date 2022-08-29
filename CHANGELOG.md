@@ -1,3 +1,10 @@
+## [1.8.2](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.1...v1.8.2) (2022-08-29)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** set image width 800px ([037f023](https://github.com/attilasomogyi/plantuml-settings/commit/037f0237ee265dabba10203bece11562cd2b9155))
+
 ## [1.8.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.0...v1.8.1) (2022-08-29)
 
 
