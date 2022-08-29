@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.7.0...v1.8.0) (2022-08-29)
+
+
+### Features
+
+* **plantuml-settings:** remove svg dimension style ([a25f1db](https://github.com/attilasomogyi/plantuml-settings/commit/a25f1dbd395f0dbe9a6b9dcf6de44cbd8b77b1ef))
+
 # [1.7.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.6.2...v1.7.0) (2022-08-29)
 
 
