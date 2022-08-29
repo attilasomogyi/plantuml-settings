@@ -15,7 +15,7 @@
 !return $title
 !endfunction
 
-skinparam svgDimensionStyle false
+scale max 800 width
 skinparam Dpi 300
 skinparam Shadowing true
 skinparam Padding 7
