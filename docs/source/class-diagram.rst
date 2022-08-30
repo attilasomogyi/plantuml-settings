@@ -2,4 +2,5 @@ Class diagram
 ================
 
 .. image:: _static/images/class-diagram.svg
-   :width: 400
+   :width: 35em
+   :alt: class diagram
