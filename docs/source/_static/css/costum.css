@@ -14,3 +14,7 @@
   .wy-nav-top {
     background-color: red;
   }
+
+  pre {
+    white-space: pre-wrap;
+}
