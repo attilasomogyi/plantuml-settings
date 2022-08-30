@@ -15,6 +15,6 @@
     background-color: red;
   }
 
-  pre {
-    overflow-wrap: break-word;
+  .rst-content div[class^="highlight"] pre {
+    white-space: pre-wrap;
   }
