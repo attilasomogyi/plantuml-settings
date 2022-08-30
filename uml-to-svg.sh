@@ -1,5 +1,6 @@
 #!/bin/sh
 
+
 PLANTUML="$(echo ~)/plantuml/plantuml.jar"
 PLANTUML_SVG_DIAGRAMS_DIR="$(pwd)/docs/source/_static/images"
 PLANTUML_DIAGRAM_FILES="$(pwd)/examples"
@@ -23,5 +24,10 @@ TIDY_SETTINGS="\
 
 SVG_FILES="*.svg"
 
-tidy $TIDY_SETTINGS $SVG_FILES
+tidy $TIDY_SETTINGS $SVG_FILES || exit 1
 
+cd - 
+
+PLANTUML_DIAGRAM_FILES="$PLANTUML_DIAGRAM_FILES/*.puml"
+
+cp $PLANTUML_DIAGRAM_FILES "$(pwd)/docs/source/_static/uml-diagrams"

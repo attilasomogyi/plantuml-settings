@@ -1,0 +1,17 @@
+@startuml
+
+!include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
+
+start
+
+if (Graphviz installed?) then (yes)
+  :process all
+  diagrams;
+else (no)
+  :process only
+  sequence and activity diagrams;
+endif
+
+stop
+
+@enduml
