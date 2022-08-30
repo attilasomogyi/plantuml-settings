@@ -9,7 +9,7 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.imgconverter',
-    'sphinx-copybutton',
+    'sphinx_copybutton',
 ]
 
 templates_path = ['_templates']
