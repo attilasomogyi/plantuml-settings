@@ -2,4 +2,6 @@ Activity diagram
 ================
 
 .. image:: _static/images/activity-diagram.svg
-   :width: 17em
+   :width: 600em
+   :alt: Activity diagram
+   :align: center
