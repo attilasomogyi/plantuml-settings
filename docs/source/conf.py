@@ -10,6 +10,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.imgconverter',
     'sphinx_copybutton',
+    'sphinx_rtd_dark_mode',
 ]
 
 templates_path = ['_templates']
