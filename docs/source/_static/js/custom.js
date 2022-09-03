@@ -11,4 +11,6 @@ const setFooter = () => {
 
 }
 
-document.addEventListener("load", setFooter);
+window.addEventListener('load', (event) => {
+    setFooter();
+  });
