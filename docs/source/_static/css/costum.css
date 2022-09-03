@@ -18,3 +18,16 @@
   .rst-content div[class^="highlight"] pre {
     white-space: pre-wrap;
   }
+
+  footer { 
+    display: none;
+  }
+
+  footer > div[role=navigation] {
+    display: block;
+
+  }
+
+  footer > div[role=contentinfo] {
+    display: block;
+  }

@@ -23,9 +23,9 @@ html_css_files = [
     'css/costum.css',
 ]
 
-html_js_files = [
-    'js/custom.js',
-]
+# html_js_files = [
+#    'js/custom.js',
+# ]
 
 epub_show_urls = 'footnote'
 
