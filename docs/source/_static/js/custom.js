@@ -14,5 +14,5 @@ const setFooter = () => {
 window.addEventListener('load', (event) => {
     setTimeout(() => {
         setFooter();
-      }, 50)      
+      }, 10)      
   });
