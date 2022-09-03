@@ -4,7 +4,8 @@ const setFooter = () => {
     let navigation = footer.querySelector('[role="navigation"]');
     let contentinfo = footer.querySelector('[role="contentinfo"]');
     let hr = "<hr />";
-    footer.innerHTML = navigation + hr + contentinfo;
+    let footerValue = navigation + hr + contentinfo;
+    footer.innerHTML = footerValue;
 
 }
 
