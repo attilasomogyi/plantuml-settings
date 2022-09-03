@@ -18,7 +18,4 @@
   .rst-content div[class^="highlight"] pre {
     white-space: pre-wrap;
   }
-
-  footer > div::after[role=contentinfo] {
-    display: none;
-  }
+  

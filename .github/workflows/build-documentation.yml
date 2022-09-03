@@ -30,7 +30,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y git rsync python3
-          pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-rtd-dark-mode
+          pip install -U sphinx sphinx-rtd-theme sphinx-copybutton
           git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
           make -C docs clean
           make -C docs html

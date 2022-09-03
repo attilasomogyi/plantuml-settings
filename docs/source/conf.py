@@ -10,7 +10,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.imgconverter',
     'sphinx_copybutton',
-    'sphinx_rtd_dark_mode',
 ]
 
 templates_path = ['_templates']
@@ -20,12 +19,17 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 
 html_css_files = [
-    'css/costum.css',
+    'css/dark.css',
+    'css/general.css',
+    'css/custom.css',
 ]
 
-# html_js_files = [
-#    'js/custom.js',
-# ]
+html_js_files = [
+    'js/default_dark.js',
+    'js/default_light.js',
+    'js/theme_switcher.js',
+    'js/custom.js',
+]
 
 epub_show_urls = 'footnote'
 
