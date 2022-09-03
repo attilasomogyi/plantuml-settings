@@ -1,2 +1,1 @@
-# [plantuml](https://github.com/plantuml/plantuml)-settings
-[Plantuml](https://github.com/plantuml/plantuml) Settings
+# (Full Documentation for PlantUML Settings)[https://attilasomogyi.github.io/plantuml-settings/]
