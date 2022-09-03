@@ -1,11 +1,12 @@
 const setFooter = () => {
 
     let footer = document.querySelector('footer');
-    let navigation = footer.querySelector('[role="navigation"]');
-    let contentinfo = footer.querySelector('[role="contentinfo"]');
-    footer.removeChild(footer.childNodes)
+    const navigation = footer.querySelector('[role="navigation"]');
+    const contentinfo = footer.querySelector('[role="contentinfo"]');
+    footer.innerHTML = '';
     footer.appendChild(navigation);
-    footer.appendChild("<hr />");
+    const hr = document.createElement("hr");
+    footer.appendChild(hr);
     footer.appendChild(contentinfo);
 
 }
