@@ -30,7 +30,6 @@ html_js_files = [
     'js/default_dark.js',
     'js/default_light.js',
     'js/theme_switcher.js',
-    'js/custom.js',
 ]
 
 epub_show_urls = 'footnote'
