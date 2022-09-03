@@ -1,5 +1,5 @@
 project = 'PlantUML Settings'
-copyright = '2022, Attila Zsolt Somogyi'
+copyright = '2022, Attila Zsolt Somogyi <a href="https://github.com/attilasomogyi/plantuml-settings">Github site</a>'
 author = 'Attila Zsolt Somogyi'
 
 extensions = [
