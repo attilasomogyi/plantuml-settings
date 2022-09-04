@@ -44,7 +44,7 @@ jobs:
           git checkout -b gh-pages
           touch .nojekyll
           git add .
-          msg="docs: updating documents"
+          msg="docs: update documents"
           git commit -am "${msg}"
           git push deploy gh-pages --force
         shell: bash
