@@ -20,3 +20,4 @@ Contents
    object-diagram
    activity-diagram
    sequince-diagram
+   use-case-diagram
