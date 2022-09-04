@@ -1,3 +1,5 @@
+/*
+
 const setFooter = () => {
 
     let footer = document.querySelector('footer');
@@ -14,3 +16,5 @@ const setFooter = () => {
 window.addEventListener('load', (event) => {
         setFooter();
   });
+  
+*/
