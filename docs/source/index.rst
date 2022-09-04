@@ -13,4 +13,6 @@ Contents
    :caption: UML Diagram's Examples
    
    class-diagram
+   object-diagram
    activity-diagram
+   sequince-diagram
