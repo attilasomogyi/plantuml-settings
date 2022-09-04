@@ -5,7 +5,7 @@ Welcome to PlantUML Settings's documentation!
 
    This project is under active development.
 
-Table of contents
+Contents
 --------
 
 .. toctree::
