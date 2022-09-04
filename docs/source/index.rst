@@ -5,11 +5,15 @@ Welcome to PlantUML Settings's documentation!
 
    This project is under active development.
 
-Contents
+Table of contents
 --------
 
 .. toctree::
-   :maxdepth: 1
+   :caption: PlantUML Settings
+   
+   plantuml-settings
+
+.. toctree::
    :caption: UML Diagram's Examples
    
    class-diagram

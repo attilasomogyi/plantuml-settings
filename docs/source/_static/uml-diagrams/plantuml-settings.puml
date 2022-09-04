@@ -1,0 +1,47 @@
+@startuml
+
+!function $date()
+!$date = %date("yyyy-MM-dd")
+!return $date
+!endfunction
+
+!function $title()
+!$title = %filename()
+!$title_length = %strlen("$title")
+!$title_extension_start = %strpos($title, ".pu")
+!if ($title_extension_start > 0)
+!$title = %substr($title, 0, $title_extension_start)
+!endif
+!return $title
+!endfunction
+
+scale 0.7
+skinparam Dpi 300
+skinparam Shadowing true
+skinparam Padding 7
+skinparam monochrome true
+skinparam BackgroundColor White
+skinparam RoundCorner 5
+skinparam ParticipantPadding 40
+skinparam BoxPadding 10
+skinparam Padding 10
+
+skinparam Default {
+    FontName Arial
+    FontColor black
+    FontSize 12
+    TextAlignment center
+}
+
+skinparam Caption {
+    FontSize 16
+}
+
+skinparam Class {
+    AttributeIconSize 0
+    }
+
+title $title()
+footer Updated on $date()
+
+@enduml
