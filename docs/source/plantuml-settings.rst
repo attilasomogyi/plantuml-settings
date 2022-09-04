@@ -4,11 +4,11 @@ PlantUML Settings
 `PlantUML Application's documentation <https://plantuml.com/>`_
 ---------------------------------------------------------------
 
-.. |plantuml-settings| literalinclude:: _static/uml-diagrams/plantuml-settings.puml
+Date function:
 
-.. plantuml-settings
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
    :lines: 3-6
 
-.. plantuml-settings 
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
    :caption: examples/plantuml-settings.puml
    :language: text
