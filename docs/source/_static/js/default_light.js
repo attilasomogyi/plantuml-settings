@@ -1,13 +1,18 @@
-const loadTheme = () => {
-  let theme = localStorage.getItem('theme');
+if (
+  window.matchMedia &&
+  window.matchMedia("(prefers-color-scheme: light)").matches
+) {
+  const loadTheme = () => {
+    let theme = localStorage.getItem("theme");
 
-  if (theme !== null) {
-    if (theme === 'dark')
-      document.documentElement.setAttribute('data-theme', 'dark');
-  } else {
-    localStorage.setItem('theme', 'light');
-    document.documentElement.setAttribute('data-theme', 'light');
-  }
-};
+    if (theme !== null) {
+      if (theme === "dark")
+        document.documentElement.setAttribute("data-theme", "dark");
+    } else {
+      localStorage.setItem("theme", "light");
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+  };
 
-loadTheme();
+  loadTheme();
+}
