@@ -1,3 +1,6 @@
+transform: scale(1); /* Standard Property */
+transform-origin: 0 0;  /* Standard Property */
+
 .wy-side-nav-search {
     padding-top: 5em;
     background-image: url("/plantuml-settings/_static/images/plantuml-logo.svg");
