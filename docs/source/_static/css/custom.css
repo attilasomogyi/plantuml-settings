@@ -1,26 +1,21 @@
-* {
-transform: scale(1); /* Standard Property */
-transform-origin: 0 0;  /* Standard Property */
+.wy-side-nav-search {
+  padding-top: 5em;
+  background-image: url("/plantuml-settings/_static/images/plantuml-logo.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 5em auto;
+  background-color: yellow;
 }
 
-.wy-side-nav-search {
-    padding-top: 5em;
-    background-image: url("/plantuml-settings/_static/images/plantuml-logo.svg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: 5em auto;
-    background-color: yellow;
-  }
+.wy-side-nav-search .wy-dropdown > a,
+.wy-side-nav-search > a {
+  color: red;
+}
 
-  .wy-side-nav-search .wy-dropdown > a, .wy-side-nav-search > a {
-    color: red;
-  }
+.wy-nav-top {
+  background-color: red;
+}
 
-  .wy-nav-top {
-    background-color: red;
-  }
-
-  .rst-content div[class^="highlight"] pre {
-    white-space: pre-wrap;
-  }
-  
+.rst-content div[class^="highlight"] pre {
+  white-space: pre-wrap;
+}
