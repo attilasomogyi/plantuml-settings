@@ -2,17 +2,13 @@ if (
   window.matchMedia &&
   window.matchMedia("(prefers-color-scheme: dark)").matches
 ) {
-  const loadTheme = () => {
-    let theme = localStorage.getItem("theme");
+  let theme = localStorage.getItem("theme");
 
-    if (theme !== null) {
-      if (theme === "dark")
-        document.documentElement.setAttribute("data-theme", "dark");
-    } else {
-      localStorage.setItem("theme", "dark");
+  if (theme !== null) {
+    if (theme === "dark")
       document.documentElement.setAttribute("data-theme", "dark");
-    }
-  };
-
-  loadTheme();
+  } else {
+    localStorage.setItem("theme", "dark");
+    document.documentElement.setAttribute("data-theme", "dark");
+  }
 }
