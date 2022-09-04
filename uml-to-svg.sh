@@ -30,4 +30,8 @@ cd -
 
 PLANTUML_DIAGRAM_FILES="$PLANTUML_DIAGRAM_FILES/*.puml"
 
-cp $PLANTUML_DIAGRAM_FILES "$(pwd)/docs/source/_static/uml-diagrams"
+TARGER_DIR="$(pwd)/docs/source/_static/uml-diagrams"
+
+cp $PLANTUML_DIAGRAM_FILES "$TARGER_DIR" || exit 1
+
+cp $(pwd)/src/*.puml "$TARGER_DIR" || exit 1
