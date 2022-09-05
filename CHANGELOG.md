@@ -1,3 +1,10 @@
+## [1.8.4](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.3...v1.8.4) (2022-09-05)
+
+
+### Bug Fixes
+
+* **plantuml-settings:** remove duplicate padding value ([b2e3665](https://github.com/attilasomogyi/plantuml-settings/commit/b2e3665aa6eccdd618e158776401b39eed3fbb7d))
+
 ## [1.8.3](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.2...v1.8.3) (2022-08-29)
 
 
