@@ -56,7 +56,7 @@ Set standard UML class diagram appearance
    :lines: 39-41
    :language: text
 
-Set title and tooter 
+Set title and footer 
 --------------------
 
 .. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
