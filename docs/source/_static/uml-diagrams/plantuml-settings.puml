@@ -18,7 +18,6 @@
 scale 0.7
 skinparam Dpi 300
 skinparam Shadowing true
-skinparam Padding 7
 skinparam monochrome true
 skinparam BackgroundColor White
 skinparam RoundCorner 5
@@ -39,7 +38,7 @@ skinparam Caption {
 
 skinparam Class {
     AttributeIconSize 0
-    }
+}
 
 title $title()
 footer Updated on $date()

@@ -5,7 +5,7 @@ PlantUML Settings
 ---------------------------------------------------------------
 
 Date function
-^^^^^^^^^^^^^
+-------------
 
 Date function return `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ format *yyyy-MM-dd* date value.
 
@@ -15,15 +15,57 @@ Date function return `ISO 8601 <https://en.wikipedia.org/wiki/ISO_8601>`_ format
    :language: text
 
 Title function
-^^^^^^^^^^^^^^
+--------------
+
+Title function return with file name without file extension.
 
 .. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
    :caption: examples/plantuml-settings.puml 8-16 lines
    :lines: 8-16
    :language: text
 
+Image settings
+--------------
+
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
+   :caption: examples/plantuml-settings.puml 18-26 lines
+   :lines: 18-26
+   :language: text
+
+Font settings
+-------------
+
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
+   :caption: examples/plantuml-settings.puml 28-33 lines
+   :lines: 28-33
+   :language: text
+
+Set caption size
+----------------
+
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
+   :caption: examples/plantuml-settings.puml 35-37 lines
+   :lines: 35-37
+   :language: text
+
+Set standard UML class diagram appearance
+-----------------------------------------
+
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
+   :caption: examples/plantuml-settings.puml 39-41 lines
+   :lines: 39-41
+   :language: text
+
+Set title and tooter 
+--------------------
+
+.. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
+   :caption: examples/plantuml-settings.puml 43-44 lines
+   :lines: 43-44
+   :language: text
+
 Full source code
-^^^^^^^^^^^^^^^^
+----------------
 
 .. literalinclude:: _static/uml-diagrams/plantuml-settings.puml
    :caption: examples/plantuml-settings.puml
