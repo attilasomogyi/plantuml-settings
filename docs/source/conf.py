@@ -1,6 +1,7 @@
 project = 'PlantUML Settings'
 copyright = '2022, Attila Zsolt Somogyi'
 author = 'Attila Zsolt Somogyi'
+release = 'latest'
 
 extensions = [
     'sphinx.ext.duration',
