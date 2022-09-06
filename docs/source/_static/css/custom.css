@@ -8,9 +8,13 @@
 }
 
 .wy-side-nav-search .wy-dropdown > a,
-.wy-side-nav-search > a,
+.wy-side-nav-search > a {
+  color: red;
+}
+
 .version {
   color: red;
+  font-weight: bold;
 }
 
 .wy-nav-top {
