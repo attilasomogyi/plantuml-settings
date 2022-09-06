@@ -12,9 +12,9 @@
   color: red;
 }
 
-.version {
-  color: red !important;
-  font-weight: bold !important;
+.wy-side-nav-search > div.version {
+  font-weight: bold;
+  color: red;
 }
 
 .wy-nav-top {
