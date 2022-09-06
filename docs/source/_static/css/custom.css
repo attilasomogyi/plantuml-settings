@@ -8,11 +8,11 @@
 }
 
 .wy-side-nav-search .wy-dropdown > a,
-.wy-side-nav-search > a {
+.wy-side-nav-search > a .version {
   color: red;
 }
 
-.wy-nav-top .version {
+.wy-nav-top {
   background-color: red;
 }
 
