@@ -10,10 +10,12 @@ Contents
 
 .. toctree::
    :caption: PlantUML Settings
+
    pages/plantuml-settings
 
 .. toctree::
    :caption: UML Diagram's Examples
+   
    pages/class-diagram
    pages/object-diagram
    pages/activity-diagram
