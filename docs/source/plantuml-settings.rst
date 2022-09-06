@@ -1,6 +1,16 @@
 PlantUML Settings
 =================
 
+Usage
+=====
+
+Set in puml file’s header
+-------------------------
+
+.. code:: text
+
+   !include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
+
 `PlantUML Application's documentation <https://plantuml.com/>`_
 ---------------------------------------------------------------
 
