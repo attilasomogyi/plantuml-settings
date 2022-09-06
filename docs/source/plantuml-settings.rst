@@ -2,12 +2,10 @@ PlantUML Settings
 =================
 
 Usage
-=====
+-----
 
-Set in puml file’s header
--------------------------
-
-.. code:: text
+.. code-block:: text
+   :caption: Set in puml file’s header
 
    !include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
 
