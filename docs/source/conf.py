@@ -1,7 +1,7 @@
 project = 'PlantUML Settings'
 copyright = '2022, Attila Zsolt Somogyi'
 author = 'Attila Zsolt Somogyi'
-release = 'latest'
+version = "latest"
 
 extensions = [
     'sphinx.ext.duration',
@@ -18,6 +18,10 @@ templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'display_version': True,
+}
+
 html_static_path = ['_static']
 html_show_sourcelink = False
 html_show_sphinx = False
