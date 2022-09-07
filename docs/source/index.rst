@@ -12,6 +12,9 @@ Contents
    :caption: Project Homepage
    :github:
 
+.. sidebar-links::
+   :caption: PlantUML
+
    PlantUML Application <https://plantuml.com/>
 
 .. toctree::
