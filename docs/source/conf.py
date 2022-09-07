@@ -24,6 +24,7 @@ html_theme_options = {
 
 html_static_path = ['_static']
 html_show_sourcelink = False
+html_copy_source = False
 html_show_sphinx = False
 html_favicon = '_static/images/plantuml-logo.svg'
 
