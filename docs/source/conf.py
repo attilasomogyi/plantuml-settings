@@ -3,6 +3,9 @@ copyright = '2022, Attila Zsolt Somogyi'
 author = 'Attila Zsolt Somogyi'
 version = "latest"
 
+github_username = 'attilasomogyi'
+github_repository = 'plantuml-settings'
+
 extensions = [
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
@@ -12,6 +15,7 @@ extensions = [
     'sphinx.ext.imgconverter',
     'sphinx_copybutton',
     'sphinx.ext.extlinks',
+    'sphinx_toolbox',
 ]
 
 templates_path = ['_templates']

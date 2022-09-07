@@ -8,6 +8,10 @@ Welcome to PlantUML Settings's documentation!
 Contents
 --------
 
+.. sidebar-links::
+   :caption: Project Homepage
+   :github:
+
 .. toctree::
    :caption: PlantUML Settings
 
