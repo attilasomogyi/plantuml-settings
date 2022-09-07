@@ -12,6 +12,8 @@ Contents
    :caption: Project Homepage
    :github:
 
+   PlantUML Application <https://plantuml.com/>
+
 .. toctree::
    :caption: PlantUML Settings
 
