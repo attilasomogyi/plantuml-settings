@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.0...v1.9.1) (2022-09-11)
+
+
+### Bug Fixes
+
+* **custom.js:** fix selector ([7f34e1b](https://github.com/attilasomogyi/plantuml-settings/commit/7f34e1bb81652efda1ac6e058358c2aa3de0e2a1))
+
 # [1.9.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.4...v1.9.0) (2022-09-11)
 
 
