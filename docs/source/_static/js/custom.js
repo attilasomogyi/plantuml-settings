@@ -4,6 +4,7 @@ const touchEvents = () => {
     const prev_url = document.querySelector("a[rel=prev]").href;
     if (prev_url) {
       window.location.href = prev_url;
+      console.log(window.location.href);
     }
   });
 
@@ -11,6 +12,7 @@ const touchEvents = () => {
     const next_url = document.querySelector("a[rel=next]").href;
     if (next_url) {
       window.location.href = next_url;
+      console.log(window.location.href);
     }
   });
 };
