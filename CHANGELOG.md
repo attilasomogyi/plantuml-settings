@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.1...v1.9.2) (2022-09-11)
+
+
+### Bug Fixes
+
+* **custom.js:** fix class name ([ce90c0c](https://github.com/attilasomogyi/plantuml-settings/commit/ce90c0cba6a65622436fb6a1af62382328aaae26))
+
 ## [1.9.1](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.0...v1.9.1) (2022-09-11)
 
 
