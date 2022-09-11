@@ -42,7 +42,7 @@ html_js_files = [
     'js/default_dark.js',
     'js/default_light.js',
     'js/theme_switcher.js',
-    'https://raw.githubusercontent.com/attilasomogyi/swiped-events/master/dist/swiped-events.min.js',
+    'js/swiped-events.js',
     'js/custom.js',
 ]
 
