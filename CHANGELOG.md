@@ -1,3 +1,10 @@
+## [1.9.4](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.3...v1.9.4) (2022-09-11)
+
+
+### Bug Fixes
+
+* **custom.js:** fix jquery mobile library url ([59b117b](https://github.com/attilasomogyi/plantuml-settings/commit/59b117bb3b3b6a7f2202b24bd0e0cd31430d8ba8))
+
 ## [1.9.3](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.2...v1.9.3) (2022-09-11)
 
 
