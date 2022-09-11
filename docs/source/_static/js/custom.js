@@ -14,3 +14,4 @@ const touchEvents = () => {
     }
   });
 };
+touchEvents;
