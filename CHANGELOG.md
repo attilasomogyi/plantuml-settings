@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.4...v1.9.0) (2022-09-11)
+
+
+### Features
+
+* **custom.js:** add swipeleft and swiperight ([f2c37fd](https://github.com/attilasomogyi/plantuml-settings/commit/f2c37fdb072d013e6bc3765270e48e96d0b92831))
+
 ## [1.8.4](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.3...v1.8.4) (2022-09-05)
 
 
