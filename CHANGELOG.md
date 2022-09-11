@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.4...v1.9.5) (2022-09-11)
+
+
+### Bug Fixes
+
+* **custom.js:** remove jquery mobile add new touch library ([04e440f](https://github.com/attilasomogyi/plantuml-settings/commit/04e440fd1c4b5fab411b5cf7b6f96b970106c054))
+
 ## [1.9.4](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.3...v1.9.4) (2022-09-11)
 
 
