@@ -1,3 +1,10 @@
+## [1.9.6](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.5...v1.9.6) (2022-09-11)
+
+
+### Bug Fixes
+
+* **custom.js:** add run touch library ([379e45c](https://github.com/attilasomogyi/plantuml-settings/commit/379e45c3ce2005052ec02cb4bbcc5929be2356ed))
+
 ## [1.9.5](https://github.com/attilasomogyi/plantuml-settings/compare/v1.9.4...v1.9.5) (2022-09-11)
 
 
