@@ -33,7 +33,7 @@ jobs:
           pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-toolbox
           git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
           make -C docs clean
-          make -C docs html
+          make -C docs singlehtml
           git config --global user.name "${GITHUB_ACTOR}"
           git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           docroot=`mktemp -d`
