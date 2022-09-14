@@ -1,10 +1,13 @@
-# PlantUML Settings
+
+<h1 align="center">
+   <a href="https://github.com/plantuml/plantuml">PlantUML</a> Settings
+</h1>
 
 <p align="center">
-  <img
-    src="https://img.shields.io/github/license/attilasomogyi/plantuml-settings"
-    alt="GitHub"
-  />
+This project is a pretty configuration file for <a href="https://github.com/plantuml/plantuml">PlantUML</a> diagrams.
+</p>
+
+<p align="center">
   <img
     src="https://img.shields.io/github/v/release/attilasomogyi/plantuml-settings"
     alt="GitHub release (latest SemVer)"
@@ -42,23 +45,54 @@
     alt="GitHub commit activity"
   />
   <img
-    src="https://img.shields.io/github/last-commit/attilasomogyi/plantuml-settings"
-    alt="GitHub last commit"
-  />
-  <img
     src="https://img.shields.io/github/contributors/attilasomogyi/plantuml-settings"
     alt="GitHub contributors"
   />
 </p>
 
-This project is a pretty configuration file for PlantUML diagrams.
+## Installation
 
-# Usage
+- Clone the repository.
+```bash
+git clone git@github.com:attilasomogyi/plantuml-settings.git
 
-## Set in puml file's header
+```
+## Usage
+
+- Set in puml file's header
+#### URL
 
 ```text
 !include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
 ```
 
-### [Full Documentation for PlantUML Settings](https://attilasomogyi.github.io/plantuml-settings)
+#### File location
+
+```text
+!include plantuml-settings.puml
+```
+### [Documentation](https://attilasomogyi.github.io/plantuml-settings)
+
+## Contributing
+
+<a href="https://github.com/attilasomogyi/plantuml-settings/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=attilasomogyi/plantuml-settings" />
+</a>
+
+## License
+
+<img
+  src="https://img.shields.io/github/license/attilasomogyi/plantuml-settings"
+  alt="GitHub"
+/>
+
+## Project status
+
+<img
+  src="https://img.shields.io/github/commit-activity/y/attilasomogyi/plantuml-settings"
+  alt="GitHub commit activity"
+/>
+<img
+    src="https://img.shields.io/github/last-commit/attilasomogyi/plantuml-settings"
+    alt="GitHub last commit"
+/>
