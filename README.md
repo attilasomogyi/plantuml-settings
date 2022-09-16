@@ -73,7 +73,7 @@ git clone git@github.com:attilasomogyi/plantuml-settings.git
 ```
 ### [Documentation](https://attilasomogyi.github.io/plantuml-settings)
 
-## [Contributing](CONTRIBUTING.md)
+## [Contributing](/CONTRIBUTING.md)
 
 <a href="https://github.com/attilasomogyi/plantuml-settings/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=attilasomogyi/plantuml-settings" />
