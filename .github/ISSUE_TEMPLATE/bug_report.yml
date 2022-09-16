@@ -27,6 +27,17 @@ body:
       required: true
 
   - type: dropdown
+    id: version
+    attributes:
+      label: Effected version
+      description: Effected version
+      multiple: false
+      options:
+        - "v1.8.4"
+    validations:
+      required: true
+
+  - type: dropdown
     id: severity-level
     attributes:
       label: Severity level
@@ -51,16 +62,5 @@ body:
         - "p2: high"
         - "p3: medium"
         - "p4: low"
-    validations:
-      required: true
-
-  - type: dropdown
-    id: version
-    attributes:
-      label: Effected version
-      description: Effected version
-      multiple: false
-      options:
-        - "v1.8.4"
     validations:
       required: true
