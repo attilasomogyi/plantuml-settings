@@ -38,6 +38,20 @@ body:
       required: true
 
   - type: dropdown
+    id: os-family
+    attributes:
+      label: OS family
+      description: OS family
+      multiple: false
+      options:
+        - "GNU/Linux Distribution"
+        - "BSD Distribution"
+        - "MacOSX"
+        - "Windows"
+    validations:
+      required: true
+
+  - type: dropdown
     id: severity-level
     attributes:
       label: Severity level
