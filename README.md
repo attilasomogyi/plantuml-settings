@@ -53,7 +53,7 @@ This project is a pretty configuration file for <a href="https://github.com/plan
 ## Installation
 
 - Clone the repository.
-```bash
+```shell
 git clone git@github.com:attilasomogyi/plantuml-settings.git
 
 ```
