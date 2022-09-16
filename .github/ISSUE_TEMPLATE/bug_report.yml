@@ -53,3 +53,14 @@ body:
         - "p4: low"
     validations:
       required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: Effected version
+      description: Effected version
+      multiple: false
+      options:
+        - "v1.8.4"
+    validations:
+      required: true
