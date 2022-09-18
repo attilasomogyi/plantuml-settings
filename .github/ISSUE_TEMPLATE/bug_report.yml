@@ -96,12 +96,6 @@ body:
   - type: markdown
     id: expected-result
     attributes:
-      label: expected-result
-      description: "Expected result"
-      value: |
-        1.
-        2.
-        3.
-        ...
+      value: Expected result
     validations:
       required: true
