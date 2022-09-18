@@ -95,7 +95,5 @@ body:
 
   - type: markdown
     id: expected-result
-    attributes:
-      value: Expected result
     validations:
       required: true
