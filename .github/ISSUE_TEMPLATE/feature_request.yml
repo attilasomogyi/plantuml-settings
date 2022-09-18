@@ -1,6 +1,6 @@
 ---
-name: Bug Report
-description: Bug Report
+name: Feature request
+description: Feature request
 title: "feature-request: "
 labels: ["feature"]
 assignees:
