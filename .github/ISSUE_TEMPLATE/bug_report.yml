@@ -92,3 +92,17 @@ body:
       render: bash
     validations:
       required: true
+
+  - type: markdown
+    id: expected-result
+    attributes:
+      label: expected-result
+      description: "Expected result"
+      value: |
+        1.
+        2.
+        3.
+        ...
+      render: bash
+    validations:
+      required: true
