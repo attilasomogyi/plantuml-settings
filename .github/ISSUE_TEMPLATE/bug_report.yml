@@ -93,7 +93,12 @@ body:
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
     id: expected-result
     attributes:
-      value: "## Expected result"
+      label: Expected result
+      description: "Expected result"
+      value: "Expected result..."
+      render: HTML
+    validations:
+      required: true
