@@ -38,11 +38,11 @@ body:
       required: true
 
   - type: dropdown
-    id: os-family
+    id: environment
     attributes:
-      label: OS family
-      description: OS family
-      multiple: false
+      label: Environment
+      description: environment
+      multiple: true
       options:
         - "GNU/Linux Distribution"
         - "BSD Distribution"
@@ -76,6 +76,16 @@ body:
         - "p2: high"
         - "p3: medium"
         - "p4: low"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug description
+      description: "Bug description"
+      value: "Bug description"
+      render: bash
     validations:
       required: true
 
