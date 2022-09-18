@@ -102,3 +102,13 @@ body:
       render: HTML
     validations:
       required: true
+
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual result
+      description: "Actual result"
+      value: "Actual result..."
+      render: HTML
+    validations:
+      required: true
