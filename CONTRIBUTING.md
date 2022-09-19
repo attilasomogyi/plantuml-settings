@@ -78,24 +78,24 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 1. Search [GitHub](https://github.com/attilasomogyi/plantuml-settings/pulls) for an open or closed PR that relates to your submission.
    You don't want to duplicate existing efforts.
 
-#. Be sure that an issue describes the problem you're fixing, or documents the design for the feature you'd like to add.
+2. Be sure that an issue describes the problem you're fixing, or documents the design for the feature you'd like to add.
    Discussing the design upfront helps to ensure that we're ready to accept your work.
 
-#. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the attilasomogyi/plantuml-settings repo.
+3. [Fork](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo) the attilasomogyi/plantuml-settings repo.
 
-#. In your forked repository, make your changes in a new git branch:
+4. In your forked repository, make your changes in a new git branch:
 
      ```shell
      git checkout -b my-fix-branch main
      ```
 
-#. Create your patch, **including appropriate test cases**.
+5. Create your patch, **including appropriate test cases**.
 
-#. Follow our [Coding Rules](#rules).
+6. Follow our [Coding Rules](#rules).
 
-#. Run the full Angular test suite, as described in the [developer documentation][dev-doc], and ensure that all tests pass.
+7. Run the full test suite, as described in the [developer documentation][dev-doc], and ensure that all tests pass.
 
-#. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit).
+8. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit).
    Adherence to these conventions is necessary because release notes are automatically generated from these messages.
 
      ```shell
@@ -103,17 +103,17 @@ Before you submit your Pull Request (PR) consider the following guidelines:
      ```
     Note: the optional commit `-a` command line option will automatically "add" and "rm" edited files.
 
-#. Push your branch to GitHub:
+9. Push your branch to GitHub:
 
     ```shell
     git push origin my-fix-branch
     ```
 
-#. In GitHub, send a pull request to `angular:main`.
+10. In GitHub, send a pull request to `plantuml-settings:main`.
 
 ### Reviewing a Pull Request
 
-The Angular team reserves the right not to accept pull requests from community members who haven't been good citizens of the community. Such behavior includes not following the [Angular code of conduct](/CODE_OF_CONDUCT.md) and applies within or outside of Angular managed channels.
+The PlantUML settings project team reserves the right not to accept pull requests from community members who haven't been good citizens of the community. Such behavior includes not following the [PlantUML Settings code of conduct](/CODE_OF_CONDUCT.md) and applies within or outside of PlantUML Settings managed channels.
 
 #### Addressing review feedback
 
@@ -121,7 +121,7 @@ If we ask for changes via code reviews then:
 
 1. Make the required updates to the code.
 
-2. Re-run the Angular test suites to ensure tests are still passing.
+2. Re-run the test suites to ensure tests are still passing.
 
 3. Create a fixup commit and push to your GitHub repository (this will update your Pull Request):
 
@@ -195,8 +195,12 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
 * All features or bug fixes **must be tested** by one or more specs (unit-tests).
 * All public API methods **must be documented**.
-## We follow 
-- [Google's JavaScript Style Guide][js-style-guide].
+### We follow 
+- [JavaScript Style Guide][js-style-guide]
+- [Python Style Guide][py-style-guide]
+- [Java Style Guide][java-style-guide]
+- [Rust Style Guide][rust-style-guide]
+- [Shell Style Guide][shell-style-guide]
 
 
 
@@ -365,7 +369,13 @@ The content of the commit message body should contain:
 [commit-message-format]: https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#
 [github]: https://github.com/attilasomogyi/plantuml-settings
 [js-style-guide]: https://google.github.io/styleguide/jsguide.html
+[ts-style-guide]: https://google.github.io/styleguide/tsguide.html
+[java-style-guide]: https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md
+[rust-style-guide]: https://rustc-dev-guide.rust-lang.org/conventions.html
+[shell-style-guide]: https://google.github.io/styleguide/shellguide.html
+[py-style-guide]: https://peps.python.org/pep-0008/
 [jsfiddle]: https://jsfiddle.net/
 [plunker]: https://plnkr.co/edit
 [runnable]: https://runnable.com/
 [stackoverflow]: https://stackoverflow.com/questions/tagged/plantuml
+
