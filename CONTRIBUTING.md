@@ -202,8 +202,6 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 - [Rust Style Guide][rust-style-guide]
 - [Shell Style Guide][shell-style-guide]
 
-
-
 ## <a name="commit"></a> Commit Message Format
 
 *This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format].*
