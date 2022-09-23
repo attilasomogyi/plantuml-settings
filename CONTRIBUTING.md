@@ -3,20 +3,20 @@
 We would love for you to contribute to PlantUML Settings Project and help make it even better than it is today!
 As a contributor, here are the guidelines we would like you to follow:
 
-- [Code of Conduct](#coc)
-- [Question or Problem?](#question)
-- [Issues and Bugs](#issue)
-- [Feature Requests](#feature)
-- [Submission Guidelines](#submit)
-- [Coding Rules](#rules)
-- [Commit Message Guidelines](#commit)
+- [Code of Conduct](#code-of-conduct)
+- [Question or Problem?](#got-a-question-or-problem)
+- [Issues and Bugs](#found-a-bug)
+- [Feature Requests](#missing-a-feature)
+- [Submission Guidelines](#submission-guidelines)
+- [Coding Rules](#coding-rules)
+- [Commit Message Guidelines](#commit-message-format)
 
-## <a name="coc"></a> Code of Conduct
+## Code of Conduct
 
 Help us keep Angular open and inclusive.
 Please read and follow our [Code of Conduct][coc].
 
-## <a name="question"></a> Got a Question or Problem?
+## Got a Question or Problem?
 
 Do not open issues for general support questions as we want to keep GitHub issues for bug reports and feature requests.
 Instead, we recommend using [Stack Overflow](https://stackoverflow.com/questions/tagged/plantuml) to ask support-related questions. When creating a new question on Stack Overflow, make sure to add the `plantuml` tag.
@@ -29,14 +29,14 @@ Stack Overflow is a much better place to ask questions since:
 
 To save your and our time, we will systematically close all issues that are requests for general support and redirect people to Stack Overflow.
 
-## <a name="issue"></a> Found a Bug?
+## Found a Bug?
 
-If you find a bug in the source code, you can help us by [submitting an issue](#submit-issue) to our [GitHub Repository][github].
-Even better, you can [submit a Pull Request](#submit-pr) with a fix.
+If you find a bug in the source code, you can help us by [submitting an issue](#submitting-an-issue) to our [GitHub Repository][github].
+Even better, you can [submit a Pull Request](#submitting-a-pull-request) with a fix.
 
-## <a name="feature"></a> Missing a Feature?
+## Missing a Feature?
 
-You can _request_ a new feature by [submitting an issue](#submit-issue) to our GitHub Repository.
+You can _request_ a new feature by [submitting an issue](#submitting-an-issue) to our GitHub Repository.
 If you would like to _implement_ a new feature, please consider the size of the change in order to determine the right steps to proceed:
 
 - For a **Major Feature**, first open an issue and outline your proposal so that it can be discussed.
@@ -44,11 +44,11 @@ If you would like to _implement_ a new feature, please consider the size of the 
 
   **Note**: Adding a new topic to the documentation, or significantly re-writing a topic, counts as a major feature.
 
-- **Small Features** can be crafted and directly [submitted as a Pull Request](#submit-pr).
+- **Small Features** can be crafted and directly [submitted as a Pull Request](#submitting-a-pull-request).
 
-## <a name="submit"></a> Submission Guidelines
+## Submission Guidelines
 
-### <a name="submit-issue"></a> Submitting an Issue
+### Submitting an Issue
 
 Before you submit an issue, please search the issue tracker. An issue for your problem might already exist and the discussion might inform you of workarounds readily available.
 
@@ -66,7 +66,7 @@ Unfortunately, we are not able to investigate / fix bugs without a minimal repro
 
 You can file new issues by selecting from our [new issue templates](https://github.com/attilasomogyi/plantuml-settings/issues/new/choose) and filling out the issue template.
 
-### <a name="submit-pr"></a> Submitting a Pull Request (PR)
+### Submitting a Pull Request
 
 Before you submit your Pull Request (PR) consider the following guidelines:
 
@@ -86,11 +86,11 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 5. Create your patch, **including appropriate test cases**.
 
-6. Follow our [Coding Rules](#rules).
+6. Follow our [Coding Rules](#coding-rules).
 
 7. Run the full test suite, as described in the [developer documentation][dev-doc], and ensure that all tests pass.
 
-8. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit).
+8. Commit your changes using a descriptive commit message that follows our [commit message conventions](#commit-message-format).
    Adherence to these conventions is necessary because release notes are automatically generated from these messages.
 
    ```shell
@@ -130,7 +130,7 @@ That's it! Thank you for your contribution!
 
 ##### Updating the commit message
 
-A reviewer might often suggest changes to a commit message (for example, to add more context for a change or adhere to our [commit message guidelines](#commit)).
+A reviewer might often suggest changes to a commit message (for example, to add more context for a change or adhere to our [commit message guidelines](#commit-message-format)).
 In order to update the commit message of the last commit on your branch:
 
 1. Check out your branch:
@@ -151,7 +151,7 @@ In order to update the commit message of the last commit on your branch:
    git push --force-with-lease
    ```
 
-> NOTE:<br />
+> NOTE:
 > If you need to update the commit message of an earlier commit, you can use `git rebase` in interactive mode.
 > See the [git docs](https://git-scm.com/docs/git-rebase#_interactive_mode) for more details.
 
@@ -183,7 +183,7 @@ After your pull request is merged, you can safely delete your branch and pull th
   git pull --ff upstream main
   ```
 
-## <a name="rules"></a> Coding Rules
+## Coding Rules
 
 To ensure consistency throughout the source code, keep these rules in mind as you are working:
 
@@ -200,7 +200,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 - [HTML/CSS Style Guide][html-css-style-guide]
 - [SQL Style Guide][sql-style-guide]
 
-## <a name="commit"></a> Commit Message Format
+## Commit Message Format
 
 _This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format]._
 
@@ -217,14 +217,14 @@ Each commit message consists of a **header**, a **body**, and a **footer**.
 <footer>
 ```
 
-The `header` is mandatory and must conform to the [Commit Message Header](#commit-header) format.
+The `header` is mandatory and must conform to the [Commit Message Header](#commit-message-header) format.
 
 The `body` is mandatory for all commits except for those of type "docs".
-When the body is present it must be at least 20 characters long and must conform to the [Commit Message Body](#commit-body) format.
+When the body is present it must be at least 20 characters long and must conform to the [Commit Message Body](#commit-message-body) format.
 
-The `footer` is optional. The [Commit Message Footer](#commit-footer) format describes what the footer is used for and the structure it must have.
+The `footer` is optional. The [Commit Message Footer](#commit-message-footer) format describes what the footer is used for and the structure it must have.
 
-#### <a name="commit-header"></a>Commit Message Header
+### Commit Message Header
 
 ```text
 <type>(<scope>): <short summary>
@@ -242,7 +242,7 @@ The `footer` is optional. The [Commit Message Footer](#commit-footer) format des
 
 The `<type>` and `<summary>` fields are mandatory, the `(<scope>)` field is optional.
 
-##### Type
+#### Type
 
 Must be one of the following:
 
@@ -309,14 +309,14 @@ Use the summary field to provide a succinct description of the change:
 - don't capitalize the first letter
 - no dot (.) at the end
 
-#### <a name="commit-body"></a>Commit Message Body
+#### Commit Message Body
 
 Just as in the summary, use the imperative, present tense: "fix" not "fixed" nor "fixes".
 
 Explain the motivation for the change in the commit message body. This commit message should explain _why_ you are making the change.
 You can include a comparison of the previous behavior with the new behavior in order to illustrate the impact of the change.
 
-#### <a name="commit-footer"></a>Commit Message Footer
+#### Commit Message Footer
 
 The footer can contain information about breaking changes and deprecations and is also the place to reference GitHub issues, Jira tickets, and other PRs that this commit closes or is related to.
 For example:
