@@ -200,6 +200,16 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 - [HTML/CSS Style Guide][html-css-style-guide]
 - [SQL Style Guide][sql-style-guide]
 
+## File and Directory name conventions
+
+- File name regexp check: `^[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+$`
+- Directory name regexp check: `^[a-z0-9]+(?:-[a-z0-9]+)*$`
+- Keep it as simple as possible
+- Don’t Capitalize Letters
+- Use Hyphens for Spaces
+- Separate words with hyphens
+- Avoid Special Characters
+
 ## Commit Message Format
 
 _This specification is inspired by and supersedes the [AngularJS commit message format][commit-message-format]._
