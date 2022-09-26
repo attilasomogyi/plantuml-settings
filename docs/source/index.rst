@@ -18,6 +18,11 @@ Contents
    PlantUML Application <https://plantuml.com/>
 
 .. toctree::
+   :caption: Readme
+
+   pages/readme
+
+.. toctree::
    :caption: PlantUML Settings
 
    pages/plantuml-settings
@@ -30,3 +35,18 @@ Contents
    pages/activity-diagram
    pages/sequince-diagram
    pages/use-case-diagram
+
+.. toctree::
+   :caption: Code of Conduct
+
+   pages/code-of-conduct
+
+.. toctree::
+   :caption: Contributing
+
+   pages/Contributing
+
+.. toctree::
+   :caption: Changelog
+
+   pages/changelog

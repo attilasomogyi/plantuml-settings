@@ -6,12 +6,18 @@ on:
       - main
     paths:
       - "docs/**"
+      - "README.md"
+      - "CODE_OF_CONDUCT.md"
+      - "CONTRIBUTING.md"
 
   pull_request:
     branches:
       - main
     paths:
       - "docs/**"
+      - "README.md"
+      - "CODE_OF_CONDUCT.md"
+      - "CHANGELOG.md"
 
   workflow_dispatch:
     inputs:
@@ -29,9 +35,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           sudo apt-get update
-          sudo apt-get install -y git rsync python3
+          sudo apt-get install -y git rsync python3 pandoc
           pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-toolbox
           git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
+          docs_source_pages="docs/source/pages"
+          flags="--from gfm --to rst -s -o"
+          pandoc CODE_OF_CONDUCT.md $flags $docs_source_pages/code-of-conduct.rst
+          pandoc CONTRIBUTING.md $flags $docs_source_pages/contributing.rst
+          pandoc README.md $flags $docs_source_pages/readme.rst
+          pandoc CHANGELOG.md $flags $docs_source_pages/changelog.rst
           make -C docs clean
           make -C docs html
           git config --global user.name "${GITHUB_ACTOR}"
