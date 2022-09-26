@@ -48,6 +48,6 @@ Contents
 
 .. toctree::
    :caption: Changelog
-   :titleonly:
+   :titlesonly:
 
    pages/changelog
