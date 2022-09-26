@@ -44,9 +44,10 @@ Contents
 .. toctree::
    :caption: Contributing
 
-   pages/Contributing
+   pages/contributing
 
 .. toctree::
    :caption: Changelog
+   :titlesonly:
 
    pages/changelog
