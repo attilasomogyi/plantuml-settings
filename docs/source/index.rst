@@ -26,6 +26,7 @@ Contents
    :caption: PlantUML Settings
 
    pages/plantuml-settings
+   pages/changelog
 
 .. toctree::
    :caption: UML Diagram's Examples
@@ -45,9 +46,3 @@ Contents
    :caption: Contributing
 
    pages/contributing
-
-.. toctree::
-   :caption: Changelog
-   :includehidden:
-
-   pages/changelog
