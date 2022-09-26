@@ -1,5 +1,3 @@
-# Changelog
-
 ## [1.8.4](https://github.com/attilasomogyi/plantuml-settings/compare/v1.8.3...v1.8.4) (2022-09-05)
 
 
