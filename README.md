@@ -53,24 +53,28 @@ This project is a pretty configuration file for <a href="https://github.com/plan
 ## Installation
 
 - Clone the repository.
+
 ```shell
 git clone git@github.com:attilasomogyi/plantuml-settings.git
 
 ```
+
 ## Usage
 
 - Set in puml file's header
-#### URL
+
+### URL
 
 ```text
 !include https://raw.githubusercontent.com/attilasomogyi/plantuml-settings/main/src/plantuml-settings.puml
 ```
 
-#### File location
+### File location
 
 ```text
 !include plantuml-settings.puml
 ```
+
 ### [Documentation](https://attilasomogyi.github.io/plantuml-settings)
 
 ## [Contributing](/CONTRIBUTING.md)
@@ -81,18 +85,22 @@ git clone git@github.com:attilasomogyi/plantuml-settings.git
 
 ## License
 
-<img
-  src="https://img.shields.io/github/license/attilasomogyi/plantuml-settings"
-  alt="GitHub"
-/>
+<p>
+  <img
+    src="https://img.shields.io/github/license/attilasomogyi/plantuml-settings"
+    alt="GitHub"
+  />
+<p/>
 
 ## Project status
 
-<img
-  src="https://img.shields.io/github/commit-activity/y/attilasomogyi/plantuml-settings"
-  alt="GitHub commit activity"
-/>
-<img
-    src="https://img.shields.io/github/last-commit/attilasomogyi/plantuml-settings"
-    alt="GitHub last commit"
-/>
+<p>
+  <img
+    src="https://img.shields.io/github/commit-activity/y/attilasomogyi/plantuml-settings"
+    alt="GitHub commit activity"
+  />
+  <img
+      src="https://img.shields.io/github/last-commit/attilasomogyi/plantuml-settings"
+      alt="GitHub last commit"
+  />
+</p>
