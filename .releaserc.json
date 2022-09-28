@@ -10,7 +10,7 @@
       [
         "@semantic-release/changelog",
         {
-          "changelogTitle": "Changelog"
+          "changelogTitle": "# Changelog"
         }
       ],
       "@semantic-release/git"
