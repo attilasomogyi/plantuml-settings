@@ -37,7 +37,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y git rsync python3 pandoc sed
-          npm install -g markdownlint --save-dev
+          npm install -g markdownlint-cli
           pip install -U sphinx sphinx-rtd-theme sphinx-copybutton sphinx-toolbox
           git clone --depth 1 "https://token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" .
           docs_source_pages="docs/source/pages"
@@ -48,7 +48,7 @@ jobs:
           mv CHANGELOG.md CHANGELOG.md.old
           pandoc --from gfm --to gfm CHANGELOG.md.old -s -o CHANGELOG.md --shift-heading-level-by 1
           sed -i '1s/^/# Changelog\n\n/' CHANGELOG.md
-          $(npm -g bin)/markdownlint -f CHANGELOG.md
+          markdownlint -f CHANGELOG.md
           pandoc CHANGELOG.md $flags $docs_source_pages/changelog.rst
           make -C docs clean
           make -C docs html
