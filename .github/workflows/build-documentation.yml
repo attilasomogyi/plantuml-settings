@@ -44,6 +44,7 @@ jobs:
           pandoc CODE_OF_CONDUCT.md $flags $docs_source_pages/code-of-conduct.rst
           pandoc CONTRIBUTING.md $flags $docs_source_pages/contributing.rst
           pandoc README.md $flags $docs_source_pages/readme.rst
+          npm install markdownlint --save-dev
           pandoc CHANGELOG.md $flags $docs_source_pages/changelog.rst
           make -C docs clean
           make -C docs html
