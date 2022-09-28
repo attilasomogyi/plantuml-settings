@@ -46,7 +46,7 @@ jobs:
           pandoc README.md $flags $docs_source_pages/readme.rst
           npm install markdownlint --save-dev
           mv CHANGELOG.md CHANGELOG.md.old
-          pandoc --from gfm --to gfm CHANGELOG.md.old --shift-heading-level-by=1 -s -o CHANGELOG.md
+          pandoc --from gfm --to gfm CHANGELOG.md.old -s -o CHANGELOG.md --shift-heading-level-by=1
           sed -i '1s/^/# Changelog\n\n/' CHANGELOG.md
           markdownlint -f CHANGELOG.md
           pandoc CHANGELOG.md $flags $docs_source_pages/changelog.rst
