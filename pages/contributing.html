@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contributing to PlantUML Settings Project &mdash; PlantUML Settings  documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx-toolbox-code.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/sphinx-toolbox.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/tabs.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/sphinx_toolbox_installation.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/dark.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/general.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/custom.css" type="text/css" />
+    <link rel="shortcut icon" href="../_static/plantuml-logo.svg"/>
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+        <script src="../_static/sphinx_toolbox_installation.js"></script>
+        <script src="../_static/js/default_dark.js"></script>
+        <script src="../_static/js/default_light.js"></script>
+        <script src="../_static/js/theme_switcher.js"></script>
+        <script src="../_static/js/swiped-events.js"></script>
+        <script src="../_static/js/custom.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Changelog" href="changelog.html" />
+    <link rel="prev" title="Contributor Covenant Code of Conduct" href="code-of-conduct.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PlantUML Settings
+          </a>
+              <div class="version">
+                latest
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Project Homepage</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/attilasomogyi/plantuml-settings">GitHub</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">PlantUML</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://plantuml.com/">PlantUML Application</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Readme</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#usage">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#contributing">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#license">License</a></li>
+<li class="toctree-l1"><a class="reference internal" href="readme.html#project-status">Project status</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">PlantUML Settings</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="plantuml-settings.html">PlantUML Settings</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">UML Diagram's Examples</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="class-diagram.html">Class diagram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="object-diagram.html">Object diagram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="activity-diagram.html">Activity diagram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sequince-diagram.html">Sequince diagram</a></li>
+<li class="toctree-l1"><a class="reference internal" href="use-case-diagram.html">Use Case diagram</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Code of Conduct</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="code-of-conduct.html">Contributor Covenant Code of Conduct</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Contributing</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing to PlantUML Settings Project</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#code-of-conduct">Code of Conduct</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#got-a-question-or-problem">Got a Question or Problem?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#found-a-bug">Found a Bug?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#missing-a-feature">Missing a Feature?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#submission-guidelines">Submission Guidelines</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submitting-an-issue">Submitting an Issue</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#submitting-a-pull-request">Submitting a Pull Request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#reviewing-a-pull-request">Reviewing a Pull Request</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#addressing-review-feedback">Addressing review feedback</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#after-your-pull-request-is-merged">After your pull request is merged</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#coding-rules">Coding Rules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#we-follow">We follow</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#file-and-directory-name-conventions">File and Directory name conventions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#commit-message-format">Commit Message Format</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#commit-message-header">Commit Message Header</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#type">Type</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#commit-message-body">Commit Message Body</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#commit-message-footer">Commit Message Footer</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#revert-commits">Revert commits</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Changelog</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="changelog.html">Changelog</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PlantUML Settings</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Contributing to PlantUML Settings Project</li>
+      <li class="wy-breadcrumbs-aside">
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="contributing-to-plantuml-settings-project">
+<h1>Contributing to PlantUML Settings Project<a class="headerlink" href="#contributing-to-plantuml-settings-project" title="Permalink to this heading"></a></h1>
+<p>We would love for you to contribute to PlantUML Settings Project and
+help make it even better than it is today! As a contributor, here are
+the guidelines we would like you to follow:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="#code-of-conduct">Code of Conduct</a></p></li>
+<li><p><a class="reference external" href="#got-a-question-or-problem">Question or Problem?</a></p></li>
+<li><p><a class="reference external" href="#found-a-bug">Issues and Bugs</a></p></li>
+<li><p><a class="reference external" href="#missing-a-feature">Feature Requests</a></p></li>
+<li><p><a class="reference external" href="#submission-guidelines">Submission Guidelines</a></p></li>
+<li><p><a class="reference external" href="#coding-rules">Coding Rules</a></p></li>
+<li><p><a class="reference external" href="#commit-message-format">Commit Message Guidelines</a></p></li>
+</ul>
+<section id="code-of-conduct">
+<h2>Code of Conduct<a class="headerlink" href="#code-of-conduct" title="Permalink to this heading"></a></h2>
+<p>Help us keep Angular open and inclusive. Please read and follow our
+<a class="reference external" href="/CODE_OF_CONDUCT.md">Code of Conduct</a>.</p>
+</section>
+<section id="got-a-question-or-problem">
+<h2>Got a Question or Problem?<a class="headerlink" href="#got-a-question-or-problem" title="Permalink to this heading"></a></h2>
+<p>Do not open issues for general support questions as we want to keep
+GitHub issues for bug reports and feature requests. Instead, we
+recommend using <a class="reference external" href="https://stackoverflow.com/questions/tagged/plantuml">Stack
+Overflow</a> to ask
+support-related questions. When creating a new question on Stack
+Overflow, make sure to add the <code class="docutils literal notranslate"><span class="pre">plantuml</span></code> tag.</p>
+<p>Stack Overflow is a much better place to ask questions since:</p>
+<ul class="simple">
+<li><p>there are thousands of people willing to help on Stack Overflow</p></li>
+<li><p>questions and answers stay available for public viewing so your
+question/answer might help someone else</p></li>
+<li><p>Stack Overflow’s voting system assures that the best answers are
+prominently visible.</p></li>
+</ul>
+<p>To save your and our time, we will systematically close all issues that
+are requests for general support and redirect people to Stack Overflow.</p>
+</section>
+<section id="found-a-bug">
+<h2>Found a Bug?<a class="headerlink" href="#found-a-bug" title="Permalink to this heading"></a></h2>
+<p>If you find a bug in the source code, you can help us by <a class="reference external" href="#submitting-an-issue">submitting an
+issue</a> to our <a class="reference external" href="https://github.com/attilasomogyi/plantuml-settings">GitHub
+Repository</a>. Even
+better, you can <a class="reference external" href="#submitting-a-pull-request">submit a Pull Request</a>
+with a fix.</p>
+</section>
+<section id="missing-a-feature">
+<h2>Missing a Feature?<a class="headerlink" href="#missing-a-feature" title="Permalink to this heading"></a></h2>
+<p>You can <em>request</em> a new feature by <a class="reference external" href="#submitting-an-issue">submitting an
+issue</a> to our GitHub Repository. If you would
+like to <em>implement</em> a new feature, please consider the size of the
+change in order to determine the right steps to proceed:</p>
+<ul class="simple">
+<li><p>For a <strong>Major Feature</strong>, first open an issue and outline your
+proposal so that it can be discussed. This process allows us to
+better coordinate our efforts, prevent duplication of work, and help
+you to craft the change so that it is successfully accepted into the
+project.</p></li>
+</ul>
+<p><strong>Note</strong>: Adding a new topic to the documentation, or significantly
+re-writing a topic, counts as a major feature.</p>
+<ul class="simple">
+<li><p><strong>Small Features</strong> can be crafted and directly <a class="reference external" href="#submitting-a-pull-request">submitted as a Pull
+Request</a>.</p></li>
+</ul>
+</section>
+<section id="submission-guidelines">
+<h2>Submission Guidelines<a class="headerlink" href="#submission-guidelines" title="Permalink to this heading"></a></h2>
+<section id="submitting-an-issue">
+<h3>Submitting an Issue<a class="headerlink" href="#submitting-an-issue" title="Permalink to this heading"></a></h3>
+<p>Before you submit an issue, please search the issue tracker. An issue
+for your problem might already exist and the discussion might inform you
+of workarounds readily available.</p>
+<p>We want to fix all the issues as soon as possible, but before fixing a
+bug, we need to reproduce and confirm it. In order to reproduce bugs, we
+require that you provide a minimal reproduction. Having a minimal
+reproducible scenario gives us a wealth of important information without
+going back and forth to you with additional questions.</p>
+<p>A minimal reproduction allows us to quickly confirm a bug (or point out
+a coding problem) as well as confirm that we are fixing the right
+problem.</p>
+<p>We require a minimal reproduction to save maintainers’ time and
+ultimately be able to fix more bugs. Often, developers find coding
+problems themselves while preparing a minimal reproduction. We
+understand that sometimes it might be hard to extract essential bits of
+code from a larger codebase, but we really need to isolate the problem
+before we can fix it.</p>
+<p>Unfortunately, we are not able to investigate / fix bugs without a
+minimal reproduction, so if we don’t hear back from you, we are going to
+close an issue that doesn’t have enough info to be reproduced.</p>
+<p>You can file new issues by selecting from our <a class="reference external" href="https://github.com/attilasomogyi/plantuml-settings/issues/new/choose">new issue
+templates</a>
+and filling out the issue template.</p>
+</section>
+<section id="submitting-a-pull-request">
+<h3>Submitting a Pull Request<a class="headerlink" href="#submitting-a-pull-request" title="Permalink to this heading"></a></h3>
+<p>Before you submit your Pull Request (PR) consider the following
+guidelines:</p>
+<ol class="arabic">
+<li><p>Search
+<a class="reference external" href="https://github.com/attilasomogyi/plantuml-settings/pulls">GitHub</a>
+for an open or closed PR that relates to your submission. You don’t
+want to duplicate existing efforts.</p></li>
+<li><p>Be sure that an issue describes the problem you’re fixing, or
+documents the design for the feature you’d like to add. Discussing
+the design upfront helps to ensure that we’re ready to accept your
+work.</p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/github/getting-started-with-github/fork-a-repo">Fork</a>
+the attilasomogyi/plantuml-settings repo.</p></li>
+<li><p>In your forked repository, make your changes in a new git branch:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git checkout -b my-fix-branch main
+</pre></div>
+</div>
+</li>
+<li><p>Create your patch, <strong>including appropriate test cases</strong>.</p></li>
+<li><p>Follow our <a class="reference external" href="#coding-rules">Coding Rules</a>.</p></li>
+<li><p>Run the full test suite, as described in the <a class="reference external" href="/CONTRIBUTING.md">developer
+documentation</a>, and ensure that all tests pass.</p></li>
+<li><p>Commit your changes using a descriptive commit message that follows
+our <a class="reference external" href="#commit-message-format">commit message conventions</a>.
+Adherence to these conventions is necessary because release notes
+are automatically generated from these messages.</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git commit --all
+</pre></div>
+</div>
+<p>Note: the optional commit <code class="docutils literal notranslate"><span class="pre">-a</span></code> command line option will
+automatically “add” and “rm” edited files.</p>
+</li>
+<li><p>Push your branch to GitHub:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git push origin my-fix-branch
+</pre></div>
+</div>
+</li>
+<li><p>In GitHub, send a pull request to <code class="docutils literal notranslate"><span class="pre">plantuml-settings:main</span></code>.</p></li>
+</ol>
+</section>
+<section id="reviewing-a-pull-request">
+<h3>Reviewing a Pull Request<a class="headerlink" href="#reviewing-a-pull-request" title="Permalink to this heading"></a></h3>
+<p>The PlantUML settings project team reserves the right not to accept pull
+requests from community members who haven’t been good citizens of the
+community. Such behavior includes not following the <a class="reference external" href="/CODE_OF_CONDUCT.md">PlantUML Settings
+code of conduct</a> and applies within or outside
+of PlantUML Settings managed channels.</p>
+<section id="addressing-review-feedback">
+<h4>Addressing review feedback<a class="headerlink" href="#addressing-review-feedback" title="Permalink to this heading"></a></h4>
+<p>If we ask for changes via code reviews then:</p>
+<ol class="arabic">
+<li><p>Make the required updates to the code.</p></li>
+<li><p>Re-run the test suites to ensure tests are still passing.</p></li>
+<li><p>Create a fixup commit and push to your GitHub repository (this will
+update your Pull Request):</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git commit --all --fixup HEAD
+git push
+</pre></div>
+</div>
+</li>
+</ol>
+<p>That’s it! Thank you for your contribution!</p>
+<section id="updating-the-commit-message">
+<h5>Updating the commit message<a class="headerlink" href="#updating-the-commit-message" title="Permalink to this heading"></a></h5>
+<p>A reviewer might often suggest changes to a commit message (for example,
+to add more context for a change or adhere to our <a class="reference external" href="#commit-message-format">commit message
+guidelines</a>). In order to update the commit
+message of the last commit on your branch:</p>
+<ol class="arabic">
+<li><p>Check out your branch:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git checkout my-fix-branch
+</pre></div>
+</div>
+</li>
+<li><p>Amend the last commit and modify the commit message:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git commit --amend
+</pre></div>
+</div>
+</li>
+<li><p>Push to your GitHub repository:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git push --force-with-lease
+</pre></div>
+</div>
+</li>
+</ol>
+<blockquote>
+<div><p>NOTE: If you need to update the commit message of an earlier commit,
+you can use <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">rebase</span></code> in interactive mode. See the <a class="reference external" href="https://git-scm.com/docs/git-rebase#_interactive_mode">git
+docs</a> for
+more details.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="after-your-pull-request-is-merged">
+<h4>After your pull request is merged<a class="headerlink" href="#after-your-pull-request-is-merged" title="Permalink to this heading"></a></h4>
+<p>After your pull request is merged, you can safely delete your branch and
+pull the changes from the main (upstream) repository:</p>
+<ul>
+<li><p>Delete the remote branch on GitHub either through the GitHub web UI
+or your local shell as follows:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git push origin --delete my-fix-branch
+</pre></div>
+</div>
+</li>
+<li><p>Check out the main branch:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git checkout main -f
+</pre></div>
+</div>
+</li>
+<li><p>Delete the local branch:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git branch -D my-fix-branch
+</pre></div>
+</div>
+</li>
+<li><p>Update your local <code class="docutils literal notranslate"><span class="pre">main</span></code> with the latest upstream version:</p>
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>git pull --ff upstream main
+</pre></div>
+</div>
+</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="coding-rules">
+<h2>Coding Rules<a class="headerlink" href="#coding-rules" title="Permalink to this heading"></a></h2>
+<p>To ensure consistency throughout the source code, keep these rules in
+mind as you are working:</p>
+<ul class="simple">
+<li><p>All features or bug fixes <strong>must be tested</strong> by one or more specs
+(unit-tests).</p></li>
+<li><p>All public API methods <strong>must be documented</strong>.</p></li>
+</ul>
+<section id="we-follow">
+<h3>We follow<a class="headerlink" href="#we-follow" title="Permalink to this heading"></a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://google.github.io/styleguide/jsguide.html">JavaScript Style
+Guide</a></p></li>
+<li><p><a class="reference external" href="https://peps.python.org/pep-0008/">Python Style Guide</a></p></li>
+<li><p><a class="reference external" href="https://github.com/twitter-archive/commons/blob/master/src/java/com/twitter/common/styleguide.md">Java Style
+Guide</a></p></li>
+<li><p><a class="reference external" href="https://rustc-dev-guide.rust-lang.org/conventions.html">Rust Style
+Guide</a></p></li>
+<li><p><a class="reference external" href="https://google.github.io/styleguide/shellguide.html">Shell Style
+Guide</a></p></li>
+<li><p><a class="reference external" href="https://google.github.io/styleguide/htmlcssguide.html">HTML/CSS Style
+Guide</a></p></li>
+<li><p><a class="reference external" href="https://github.com/treffynnon/sqlstyle.guide/blob/gh-pages/_includes/sqlstyle.guide.md">SQL Style
+Guide</a></p></li>
+</ul>
+</section>
+</section>
+<section id="file-and-directory-name-conventions">
+<h2>File and Directory name conventions<a class="headerlink" href="#file-and-directory-name-conventions" title="Permalink to this heading"></a></h2>
+<ul class="simple">
+<li><p>File name regexp check: <code class="docutils literal notranslate"><span class="pre">^[a-z0-9]+(?:-[a-z0-9]+)*\.[a-z0-9]+$</span></code></p></li>
+<li><p>Directory name regexp check: <code class="docutils literal notranslate"><span class="pre">^[a-z0-9]+(?:-[a-z0-9]+)*$</span></code></p></li>
+<li><p>Keep it as simple as possible</p></li>
+<li><p>Don’t Capitalize Letters</p></li>
+<li><p>Use Hyphens for Spaces</p></li>
+<li><p>Separate words with hyphens</p></li>
+<li><p>Avoid Special Characters</p></li>
+</ul>
+</section>
+<section id="commit-message-format">
+<h2>Commit Message Format<a class="headerlink" href="#commit-message-format" title="Permalink to this heading"></a></h2>
+<p><em>This specification is inspired by and supersedes the</em><a class="reference external" href="https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#">AngularJS
+commit message
+format</a><em>.</em></p>
+<p>We have very precise rules over how our Git commit messages must be
+formatted. This format leads to <strong>easier to read commit history</strong>.</p>
+<p>Each commit message consists of a <strong>header</strong>, a <strong>body</strong>, and a
+<strong>footer</strong>.</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>&lt;header&gt;
+&lt;BLANK LINE&gt;
+&lt;body&gt;
+&lt;BLANK LINE&gt;
+&lt;footer&gt;
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">header</span></code> is mandatory and must conform to the <a class="reference external" href="#commit-message-header">Commit Message
+Header</a> format.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">body</span></code> is mandatory for all commits except for those of type
+“docs”. When the body is present it must be at least 20 characters long
+and must conform to the <a class="reference external" href="#commit-message-body">Commit Message Body</a>
+format.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">footer</span></code> is optional. The <a class="reference external" href="#commit-message-footer">Commit Message
+Footer</a> format describes what the footer is
+used for and the structure it must have.</p>
+<section id="commit-message-header">
+<h3>Commit Message Header<a class="headerlink" href="#commit-message-header" title="Permalink to this heading"></a></h3>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>&lt;type&gt;(&lt;scope&gt;): &lt;short summary&gt;
+  │       │             │
+  │       │             └─⫸ Summary in present tense.
+  |       |                  Not capitalized. No period at the end.
+  │       │
+  │       └─⫸ Commit Scope: file name without extension
+  |                         (for example: changelog, code-of-conduct, readme)
+  │
+  └─⫸ Commit Type: build|ci|docs|feat|fix|perf|refactor|test
+</pre></div>
+</div>
+<p>The <code class="docutils literal notranslate"><span class="pre">&lt;type&gt;</span></code> and <code class="docutils literal notranslate"><span class="pre">&lt;summary&gt;</span></code> fields are mandatory, the <code class="docutils literal notranslate"><span class="pre">(&lt;scope&gt;)</span></code>
+field is optional.</p>
+<section id="type">
+<h4>Type<a class="headerlink" href="#type" title="Permalink to this heading"></a></h4>
+<p>Must be one of the following:</p>
+<ul class="simple">
+<li><p><strong>build</strong>: Changes that affect the build system or external
+dependencies (example scopes: gulp, broccoli, npm)</p></li>
+<li><p><strong>ci</strong>: Changes to our CI configuration files and scripts (examples:
+CircleCi, SauceLabs)</p></li>
+<li><p><strong>docs</strong>: Documentation only changes</p></li>
+<li><p><strong>feat</strong>: A new feature</p></li>
+<li><p><strong>fix</strong>: A bug fix</p></li>
+<li><p><strong>perf</strong>: A code change that improves performance</p></li>
+<li><p><strong>refactor</strong>: A code change that neither fixes a bug nor adds a
+feature</p></li>
+<li><p><strong>test</strong>: Adding missing tests or correcting existing tests</p></li>
+</ul>
+<section id="scope">
+<h5>Scope<a class="headerlink" href="#scope" title="Permalink to this heading"></a></h5>
+<p>The scope should be the name of the npm package affected (as perceived
+by the person reading the changelog generated from commit messages).</p>
+<p>The following is the list of supported scopes:</p>
+<ul class="simple">
+<li><p>file name without extension (for example: changelog, code-of-conduct,
+readme)</p></li>
+<li><p>none/empty string: useful for <code class="docutils literal notranslate"><span class="pre">test</span></code> and <code class="docutils literal notranslate"><span class="pre">refactor</span></code> changes that
+are done across all packages (e.g. <code class="docutils literal notranslate"><span class="pre">test:</span> <span class="pre">add</span> <span class="pre">missing</span> <span class="pre">unit</span> <span class="pre">tests</span></code>)
+and for docs changes that are not related to a specific package (e.g.
+<code class="docutils literal notranslate"><span class="pre">docs:</span> <span class="pre">fix</span> <span class="pre">typo</span> <span class="pre">in</span> <span class="pre">tutorial</span></code>).</p></li>
+</ul>
+</section>
+<section id="summary">
+<h5>Summary<a class="headerlink" href="#summary" title="Permalink to this heading"></a></h5>
+<p>Use the summary field to provide a succinct description of the change:</p>
+<ul class="simple">
+<li><p>use the imperative, present tense: “change” not “changed” nor
+“changes”</p></li>
+<li><p>don’t capitalize the first letter</p></li>
+<li><p>no dot (.) at the end</p></li>
+</ul>
+</section>
+</section>
+<section id="commit-message-body">
+<h4>Commit Message Body<a class="headerlink" href="#commit-message-body" title="Permalink to this heading"></a></h4>
+<p>Just as in the summary, use the imperative, present tense: “fix” not
+“fixed” nor “fixes”.</p>
+<p>Explain the motivation for the change in the commit message body. This
+commit message should explain <em>why</em> you are making the change. You can
+include a comparison of the previous behavior with the new behavior in
+order to illustrate the impact of the change.</p>
+</section>
+<section id="commit-message-footer">
+<h4>Commit Message Footer<a class="headerlink" href="#commit-message-footer" title="Permalink to this heading"></a></h4>
+<p>The footer can contain information about breaking changes and
+deprecations and is also the place to reference GitHub issues, Jira
+tickets, and other PRs that this commit closes or is related to. For
+example:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>BREAKING CHANGE: &lt;breaking change summary&gt;
+&lt;BLANK LINE&gt;
+&lt;breaking change description + migration instructions&gt;
+&lt;BLANK LINE&gt;
+&lt;BLANK LINE&gt;
+Fixes #&lt;issue number&gt;
+</pre></div>
+</div>
+<p>or</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>DEPRECATED: &lt;what is deprecated&gt;
+&lt;BLANK LINE&gt;
+&lt;deprecation description + recommended update path&gt;
+&lt;BLANK LINE&gt;
+&lt;BLANK LINE&gt;
+Closes #&lt;pr number&gt;
+</pre></div>
+</div>
+<p>Breaking Change section should start with the phrase “BREAKING CHANGE: ”
+followed by a summary of the breaking change, a blank line, and a
+detailed description of the breaking change that also includes migration
+instructions.</p>
+<p>Similarly, a Deprecation section should start with “DEPRECATED: ”
+followed by a short description of what is deprecated, a blank line, and
+a detailed description of the deprecation that also mentions the
+recommended update path.</p>
+</section>
+</section>
+<section id="revert-commits">
+<h3>Revert commits<a class="headerlink" href="#revert-commits" title="Permalink to this heading"></a></h3>
+<p>If the commit reverts a previous commit, it should begin with
+<code class="docutils literal notranslate"><span class="pre">revert:</span></code>, followed by the header of the reverted commit.</p>
+<p>The content of the commit message body should contain:</p>
+<ul class="simple">
+<li><p>information about the SHA of the commit being reverted in the
+following format: <code class="docutils literal notranslate"><span class="pre">This</span> <span class="pre">reverts</span> <span class="pre">commit</span> <span class="pre">&lt;SHA&gt;</span></code>,</p></li>
+<li><p>a clear description of the reason for reverting the commit message.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="code-of-conduct.html" class="btn btn-neutral float-left" title="Contributor Covenant Code of Conduct" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="changelog.html" class="btn btn-neutral float-right" title="Changelog" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Attila Zsolt Somogyi.</p>
+  </div>
+
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

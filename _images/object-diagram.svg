@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     contentStyleType="text/css"
+     height="487.8125px"
+     preserveAspectRatio="none"
+     style="width:332px;height:487px;background:#FFFFFF;"
+     version="1.1"
+     viewBox="0 0 332 487"
+     width="332.5px"
+     zoomAndPan="magnify">
+  <defs>
+    <filter height="300%"
+            id="f10pmkhdm7mkf"
+            width="300%"
+            x="-1"
+            y="-1">
+      <feGaussianBlur result="blurOut"
+                      stdDeviation="4.375" />
+      <feColorMatrix in="blurOut"
+                     result="blurOut2"
+                     type="matrix"
+                     values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+      <feOffset dx="8.75"
+                dy="8.75"
+                in="blurOut2"
+                result="blurOut3" />
+      <feBlend in="SourceGraphic"
+               in2="blurOut3"
+               mode="normal" />
+    </filter>
+  </defs>
+  <g>
+    <rect fill="#FFFFFF"
+          height="100.8408"
+          rx="5.4688"
+          ry="5.4688"
+          style="stroke:#00000000;stroke-width:2.1875;"
+          width="293.125"
+          x="10.9375"
+          y="10.9375" />
+    <text fill="#000000"
+          font-family="Arial"
+          font-size="30.625"
+          font-weight="bold"
+          lengthAdjust="spacing"
+          textLength="227.5"
+          x="43.75"
+          y="72.4759">object-diagram</text>
+    <g id="elem_user">
+      <rect fill="#F1F1F1"
+            filter="url(#f10pmkhdm7mkf)"
+            height="248.0548"
+            rx="5.4688"
+            ry="5.4688"
+            style="stroke:#181818;stroke-width:1.09375;"
+            width="255.9375"
+            x="30.625"
+            y="140.2158" />
+      <text fill="#000000"
+            font-family="Arial"
+            font-size="26.25"
+            lengthAdjust="spacing"
+            textLength="54.6875"
+            x="131.25"
+            y="191.088">user</text>
+      <line style="stroke:#181818;stroke-width:1.09375;"
+            x1="32.8125"
+            x2="284.375"
+            y1="222.9007"
+            y2="222.9007" />
+      <text fill="#000000"
+            font-family="Arial"
+            font-size="26.25"
+            lengthAdjust="spacing"
+            textLength="185.9375"
+            x="65.625"
+            y="278.1479">name = "Adam"</text>
+      <text fill="#000000"
+            font-family="Arial"
+            font-size="26.25"
+            lengthAdjust="spacing"
+            textLength="96.25"
+            x="110.4688"
+            y="352.0828">id = 123</text>
+    </g>
+    <rect fill="#FFFFFF"
+          height="68.9041"
+          rx="5.4688"
+          ry="5.4688"
+          style="stroke:#00000000;stroke-width:2.1875;"
+          width="288.75"
+          x="13.125"
+          y="403.5831" />
+    <text fill="#000000"
+          font-family="Arial"
+          font-size="21.875"
+          lengthAdjust="spacing"
+          textLength="245"
+          x="35"
+          y="445.9766">Updated on 2022-09-05</text>
+  </g>
+</svg>
